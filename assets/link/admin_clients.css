@@ -1,0 +1,541 @@
+/* ================= Product ===============*/
+.btn-control-large{
+    background-color: var(--red);
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 20px;
+    width: auto!important;
+}
+
+.admin-control-right i {
+    margin-right: 5px;
+}
+/* ========== Product ========= */
+/* section.content {
+    padding-left: 50px;
+    padding-right: 50px;
+} */
+.admin-control {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.admin-control-center {
+    flex: 1;
+}
+
+.admin-control-right {
+    display: flex;
+}
+.filter-date {
+    display: flex;
+    align-items: center;
+}
+.fillter-date>div:first-child {
+    margin-right: 20px;
+}
+
+.fillter-date>div>label {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.form-control-date {
+    margin: 0 10px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.btn-reset-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-radius: 5px;
+    color: #333;
+    background: #f0f0f0;
+    transition: .3s;
+}
+.btn-reset-order:hover {
+    background: #333;
+    color: #fff;
+}
+
+.form-search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    height: 40px;
+    padding: 0 15px;
+    color: var(--text-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.form-search-input {
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    padding-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 75%;
+}
+
+.btn-control-large {
+    background: #333;
+    height: 40px;
+    color: #fff;
+    width: auto;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+/* ========= Table Users ========== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead {
+    background: #f0f0f0;
+}
+
+tbody>tr>td:first-child {
+    padding-left: 24px;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    color: #555;
+}
+
+td img {
+    position: absolute;
+    width: 40px;
+    height: auto;
+    bottom: 4px;
+}
+
+tr td:nth-child(5),
+tr td:nth-child(4){
+    padding-left: 26px;
+}
+tr td:nth-child(6) {
+    padding-right: 20px;
+}
+.status {
+    margin-left: -4px;
+    padding: 6px 10px;  
+    border-radius: 20px;
+    font-size: 1.4rem;
+    color: #fff;
+}
+.status-online {
+    background: #27ae60;
+}
+.status-blocked {
+    margin-left: 5px;
+    background: #f04e2e;
+}
+.list-tool {
+    margin-left: -8px;
+    /* padding-top: 10px;
+    padding-bottom: 30px; */
+    display: flex;
+    gap: 4px;
+}
+.btn-edit,
+.btn-delete {
+    background-color: #eee;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin-left: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-delete {
+    background: #000;
+    color: #fff;
+}
+/* ======= Page Nav Product ========== */
+.page-nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #f0f0f0;
+}
+.pages {
+    transform: translateX(78%);
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: .4s;
+}
+.page.previous-page {
+    opacity: .3;
+}
+.page.current-page {
+    border: 1px solid #000;
+}
+.page:hover:not(.current-page) {
+    background: #f0f0f0;
+}
+/* ================= Modal Add New Client ====================== */
+.modal-edit-clients,
+.modal-add-clients {
+    position: fixed;
+    top: 28%;
+    left: 40%;
+    width: 400px;
+    min-height: 333px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 30px;
+    border-radius: 5px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    scale: 0;
+    transform-origin: center;
+}
+.modal-edit-clients {
+    min-height: 333px;
+}
+.client-checkbox-edit:checked ~ .modal-edit-clients,
+.client-checkbox:checked ~ .modal-add-clients {
+    opacity: 1;
+    visibility: visible;
+    scale: 1;
+}
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d4cece;
+    border-radius: 50%;
+}
+.modal-close svg {
+    transition: .4s;
+}
+.modal-close:hover svg {
+    rotate: 180deg;
+}
+.modal-edit-client-title,
+.modal-add-client-title {
+    margin: 16px 0 5px 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.form-content {
+    padding: 0 20px 20px;
+}
+.signup-form {
+    margin-top: 15px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-label {
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 0.3px #000;
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 5px;
+}
+.signin-btn {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.switch label {
+    margin-left: 30px;
+    display: inline-block;
+    width: 40px;
+    height: 16px;
+    border-radius: 99px;
+    background: #f9f9f9;
+    outline: 3px solid #e8e8e8;
+    transition: ease .25s;
+}
+.switch label::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .5);
+    transition: ease .25s;
+}
+.switch [type="checkbox"]:checked + label {
+    background: #72e460;
+    outline-color: #72e460;
+}
+.switch [type="checkbox"]:checked + label::before {
+    transform: translateX(23px);
+}
+.edit-account span{ 
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 0.3px #000;
+}
+.signin-btn {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ============ Admin Clients ============== */
+.view-btn {
+    position: relative;
+    margin-left: 6px;
+    background: #eee;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 1.8rem;
+}
+.view-action-name {
+    position: absolute;
+    top: -30px;
+    left: -5px;
+    font-size: 1.3rem;
+    text-align: center;
+    min-width: 60px;
+    height: 24px;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    transform: translateY(16px);
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.view-action-name::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 12px solid #333;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.view-btn:hover .view-action-name {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* ================= Modal View Order ============= */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0 , .3);
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+}
+.view-order-wrap {
+    position: relative;
+    width: 900px;
+    min-height: 500px;
+    position: fixed;
+    top: 16%;
+    left: 21%;
+    background: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    scale: 0;
+    transform-origin: center;
+    transition: .5s;
+}
+.view-order-checkbox:checked ~ .modal-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.view-order-checkbox:checked ~ .view-order-wrap {
+    opacity: 1;
+    visibility: visible;
+    scale: 1;
+}
+.view-title {
+    padding: 20px  0 0 20px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.view-content {
+    padding: 0 20px;
+    margin-top: 20px;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.view-content-left {
+    border-right: 1px solid #333;
+    padding-right: 30px;
+}
+.product-item {
+    padding: 6px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.product-item__img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-info__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.product-item__name {
+    line-height: normal;
+    margin-right: 26px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    white-space: nowrap;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-item__price {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(48, 39, 39);
+}
+.product-item__note {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #8a7d7d;
+}
+.product-item__qty {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.view-content-right {
+    padding-left: 20px;
+}
+.row-info {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.recipient-info {
+    padding-top: 0;
+}
+.recipient-title  {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.delivery-info {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.delivery-heading {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.delivery-content {
+    margin-top: 10px;
+    padding-left: 14px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background: #ccc;
+    opacity: 0.5;
+}
+.view-order-bottom {
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.view-order-bottom-left {
+    padding-left: 20px;
+}
+.view-order-bottom-left p{
+    padding-bottom: 10px;
+    color: #847f7f;
+}
+.view-order-bottom-left span {
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.view-order-bottom-btn {
+    margin-right: 20px;
+    padding: 10px 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+

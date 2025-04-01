@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quản Lí Sản Phẩm</title>
+        <link rel="stylesheet" href="/assets/css/reset.css" />
+        <link rel="stylesheet" href="/assets/link/adminProduct.css" />
+        <link rel="stylesheet" href="/assets/link/sidebarAdmin.css" />
+        <!-- Embeded Icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Embed Fonts -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- AOS animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <style>
+        .upload-img-preview {
+            margin-left: 48px;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <aside class="sidebar open">
+                <div class="top-sidebar">
+                    <a href="/assets/link/admin_home.html" class="petshop-logo"
+                        ><img src="/assets/img/mainlogo.png" alt="Antony Logo"
+                    /></a>
+                </div>
+                <div class="middle-sidebar">
+                    <ul class="sidebar-list">
+                        <li class="sidebar-list-item">
+                            <a
+                                href="/assets/link/admin_home.html"
+                                class="sidebar-link"
+                            >
+                                <div class="sidebar-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="hidden-sidebar">
+                                    Trang tổng quan
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item active">
+                            <a href="" class="sidebar-link">
+                                <div class="sidebar-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0 1 20.25 6v12A2.25 2.25 0 0 1 18 20.25H6A2.25 2.25 0 0 1 3.75 18V6A2.25 2.25 0 0 1 6 3.75h1.5m9 0h-9"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="hidden-sidebar" id="name-acc">
+                                    Sản Phẩm
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a
+                                href="/assets/link/admin_clients.html"
+                                class="sidebar-link"
+                                id="logout-acc"
+                            >
+                                <div class="sidebar-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="hidden-sidebar">Khách Hàng</div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a
+                                href="/assets/link/admin_order.html"
+                                class="sidebar-link"
+                                id="logout-acc"
+                            >
+                                <div class="sidebar-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="hidden-sidebar">Đơn Hàng</div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item">
+                            <a
+                                href="/assets/link/admin_stastic.html"
+                                class="sidebar-link"
+                                id="logout-acc"
+                            >
+                                <div class="sidebar-icon">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="24"
+                                        height="24"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="hidden-sidebar">Thống Kê</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-sidebar">
+                    <ul class="sidebar-list">
+                        <li class="sidebar-list-item user-logout">
+                            <a href="/" class="sidebar-link">
+                                <div class="sidebar-icon">
+                                    <i
+                                        class="fa-solid fa-circle-chevron-left"
+                                    ></i>
+                                </div>
+                                <div class="hidden-sidebar">Trang chủ</div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item user-logout">
+                            <a href="#" class="sidebar-link">
+                                <div class="sidebar-icon">
+                                    <i class="fa-regular fa-circle-user"></i>
+                                </div>
+                                <div class="hidden-sidebar" id="name-acc">
+                                    Lit Truong
+                                </div>
+                            </a>
+                        </li>
+                        <li class="sidebar-list-item user-logout">
+                            <a href="/assets/link/login.html" class="sidebar-link" id="logout-acc">
+                                <div class="sidebar-icon">
+                                    <i
+                                        class="fa-solid fa-arrow-right-from-bracket"
+                                    ></i>
+                                </div>
+                                <div class="hidden-sidebar">Đăng xuất</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="content">
+                <h3 class="content-tittle" data-aos="fade-left" data-aos-duration="1500">Danh Sách Sản Phẩm</h3>
+                <div class="admin-control">
+                    <div class="admin-control-left">
+                        <select name="the-loai" id="the-loai">
+                            <option selected>Tất cả</option>
+                            <option value="">Thức ăn</option>
+                            <option value="">Đồ chơi</option>
+                            <option value="">Phụ kiện</option>
+                            <option value="">Đồ vệ sinh</option>
+                            <option value="">Sức khỏe</option>
+                            <option value="">Chăm nuôi</option>
+                        </select>
+                    </div>
+                    <div class="admin-control-center">
+                        <form action="" class="form-search">
+                            <span class="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <input
+                                type="text"
+                                id="form-search-product"
+                                class="form-search-input"
+                                placeholder="Tìm kiếm sản phầm..."
+                            />
+                        </form>
+                    </div>
+                    <div class="admin-control-right">
+                        <a href="" class="btn-control-large">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            Làm mới</a
+                        >
+                        <label for="add-product" class="btn-control-large">
+                            <i class="fa-solid fa-plus"></i>
+                            Thêm mới
+                        </label>
+                    </div>
+                </div>
+                <div class="show-product">
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-1.webp"
+                                alt="Thức Ăn Hạt Cho Mèo Trưởng Thành vị Thịt Gà và Cá Hồi Natural Core 10KG"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Hạt Cho Mèo Trưởng Thành vị Thịt Gà
+                                    và Cá Hồi Natural Core 10KG
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Natural Core Bene 3012 là thức ăn dành cho
+                                    mèo với hương vị Gà và Cá hồi thơm ngon,
+                                    cùng nguồn dinh dưỡng tuyệt vời, sử dụng
+                                    nguồn protein động vật chất lượng cao, cung
+                                    cấp đa đạm tạo điều kiện cho sự phát triển
+                                    của mèo.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price"
+                                    >1.131.000đ</span
+                                >
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-2.jpg"
+                                alt="Thức Ăn Hạt Mềm Cho Chó ANF- Soft Vị Gà 1.2KG"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Hạt Mềm Cho Chó ANF- Soft Vị Gà
+                                    1.2KG
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Phương pháp đặc biệt “Water Tight” – Kín
+                                    nước là phương pháp giữ chặt nước bên trong
+                                    kết cấu của hạt, giúp nước không thoát ra
+                                    ngoài để tạo độ ẩm, mềm xốp cho hạt và ức
+                                    chế nấm mốc, vi sinh vật xuất hiện ở độ ẩm
+                                    cao, đồng thời ngăn chặn nguyên nhân gây ra
+                                    phân lỏng.Cá hồi và thịt gà giúp cải thiện
+                                    khả năng tiêu hóa và tăng cảm giác ngon
+                                    miệng.Men vi sinh Probiotics và Prebiotics
+                                    là những vi khuẩn có lợi giúp tăng cường sức
+                                    khỏe đường ruột, cải thiện tiêu hóa và hạn
+                                    chế tiêu chảy.Axit béo, Omega-3 giúp tài tạo
+                                    tế bào, làm đẹp da và lông bóng mượt.Giàu
+                                    trái cây tươi và rau quả giúp chống oxy hóa
+                                    và cải thiển tình trạng táo bón.Glucosamine
+                                    và Chondroitin giúp tăng cường sức khỏe
+                                    xương khớp và răng miệng. Chiết xuất Yucca
+                                    giúp giảm mùi hôi của phân.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">209.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-3.webp"
+                                alt="Thức Ăn Hạt Cho Chó Trưởng Thành Zoi Dog Mix Vị 1Kg"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Hạt Cho Chó Trưởng Thành Zoi Dog Mix
+                                    Vị 1Kg
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Mang hương vị thơm ngon, hấp dẫn kích thích
+                                    vị giác của cún cưng tạo cảm giác thèm ăn
+                                    đối với các bé biếng ăn hay vừa khỏi bệnh.
+                                    Cấu trúc hạt giòn có độ cứng vừa phải không
+                                    gây khó khăn khi hấp thụ giảm tình trạng cao
+                                    răng, hình thành các mảng bám hiệu quả.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">30.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-4.png"
+                                alt="Thức Ăn Hạt Cho Mèo Mọi Lứa Tuổi Cats Eye 1.5KG"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Hạt Cho Mèo Mọi Lứa Tuổi Cats Eye
+                                    1.5KG
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Hạt Cat's Eye là thức ăn hạt cho mèo ở mọi
+                                    lứa tuổi của Hàn Quốc. Cat's Eye được phối
+                                    trộn đặc biệt dành cho mèo mọi lứa tuổi để
+                                    giảm chứng rụng lông, cải thiện bộ lông mèo
+                                    và cải thiện tiêu hóa. Với những thành phần
+                                    dễ tiêu hóa và cực kỳ ngon miệng sẽ giúp
+                                    tăng cường hệ thống miễn dịch, cải thiện khả
+                                    năng hấp thụ dinh dưỡng, tăng cường sức khỏe
+                                    đại tràng và giảm lãng phí thức ăn. Giảm tối
+                                    thiểu lượng phân đào thải và giảm mùi phân
+                                    thải ra.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">122.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/vesinh1.webp"
+                                alt="Khay Vệ Sinh Cho Mèo Hình Con Vịt 53x43x25cm"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Khay Vệ Sinh Cho Mèo Hình Con Vịt 53x43x25cm
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Khay vệ sinh hình con vịt là một sản phẩm
+                                    thú vị và độc đáo dành cho những chú mèo.
+                                    Khay được làm bằng nhựa cao cấp, có thiết kế
+                                    hình con vịt ngộ nghĩnh, bắt mắt. Khay có
+                                    kích thước 53x43x25cm, phù hợp với những chú
+                                    mèo có kích thước trung bình và lớn.
+                                </p>
+                                <span class="product-type">Đồ vệ sinh</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">102.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/dochoi-1.webp"
+                                alt="Đồ Chơi Cho Thú Cưng - Lật Đật Cho Ăn Tự Động"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Đồ Chơi Cho Thú Cưng - Lật Đật Cho Ăn Tự
+                                    Động
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Làm từ nhựa cứng bền chắc Với đặc tính của
+                                    lật đật là không bao giờ ngã, dù có tác động
+                                    mạnh từ mèo cưng. Có khoang chứa Snack, bánh
+                                    thưởng có thể điều chỉnh theo kích thước đồ
+                                    ăn để mèo cưng vừa chơi và đồ ăn vừa nhả ra
+                                    tạo cảm giác thích thú và hưng phấn cho mèo
+                                    cưng. Cần câu trên đỉnh có viên bi tròn thu
+                                    hút mèo cưng chơi đùa và đuổi bắt 2 viên bi
+                                    tròn ở vị trí chính giữa tạo cho mèo cưng
+                                    cảm giác thích thú không nhàm chán khi chơi
+                                    đồ chơi
+                                </p>
+                                <span class="product-type">Đồ chơi</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">47.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/phukien1.webp"
+                                alt="Bát Ăn Đôi Cho Chó Mèo Hình Cá"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Bát Ăn Đôi Cho Chó Mèo Hình Cá
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Bát ăn cho thú cưng có tính năng chống đệm
+                                    trượt có lợi cho thú cưng, bát 2 ngân tiện
+                                    lợi có thể chứa cả thức ăn và nước, được làm
+                                    bằng chất liệu nhựa chất lượng cao, bền và
+                                    an toàn.
+                                </p>
+                                <span class="product-type">Phụ kiện</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">42.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-5.png"
+                                alt="Thức Ăn Hạt Mềm Cho Chó Già Zenith Senior 1.2KG"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Hạt Mềm Cho Chó Già Zenith Senior
+                                    1.2KG
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    ZenithSenior – Thức Ăn hạt mềm cao cấp hoàn
+                                    toàn không chứa ngũ cốc: Ngô, Lúa Mì, Gạo,…
+                                    Giàu dinh dưỡng như protein cao cấp, vitamin
+                                    và khoáng chất cần thiết, giúp duy trì sự
+                                    phát triển cơ thể và sức khỏe thú cưng. Với
+                                    các thành phần tươi sạch, giàu dinh dưỡng,
+                                    Zenith Senior hạt mềm, cung cấp độ ẩm cao và
+                                    lượng muối thấp, thơm ngon, dễ nhai, dễ tiêu
+                                    hóa và tốt cho sức khỏe chó lớn tuổi.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <span class="list-current-price">188.000đ</span>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/vesinh2.webp"
+                                alt="Đồ Chơi Cho Thú Cưng - Cầu Gai Phát Sáng"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Đồ Chơi Cho Thú Cưng - Cầu Gai Phát Sáng
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Đồ chơi cầu gai phát sáng là món đồ chơi
+                                    không thể thiếu khi chơi đùa với chó mèo của
+                                    bạn. Bóng có hình dạng đặc biệt với hình cầu
+                                    gai nhiều màu sắc bằng cao su chất lượng
+                                    cao, nó không chỉ an toàn mà còn massage cho
+                                    răng nướu khi cắn gặm.
+                                </p>
+                                <span class="product-type">Đồ chơi</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">12.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/vesinh3.webp"
+                                alt="Khay vệ sinh cho chó có thành chắn cao xung quanh"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Khay vệ sinh cho chó có thành chắn cao xung
+                                    quanh
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Khay vệ sinh cho chó có thành chắn cao để
+                                    ngăn nước nước tiểu và dễ dàng vệ sinh, dọn
+                                    dẹp cho bé yêu
+                                </p>
+                                <span class="product-type">Đồ vệ sinh</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">91.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/pro-6.webp"
+                                alt="Thức Ăn Cho Mèo Con Reflex Kitten Vị Gà & Gạo 2KG"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Thức Ăn Cho Mèo Con Reflex Kitten Vị Gà &
+                                    Gạo 2KG
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Reflex Kitten Vị Gà & Gạo là thức ăn cho mèo
+                                    được sản xuất bởi công ty Reflex, một trong
+                                    những thương hiệu thức ăn cho thú cưng hàng
+                                    đầu tại Thổ Nhĩ Kỳ. Sản phẩm được thiết kế
+                                    dành cho mèo con, với thành phần chính là
+                                    thịt gà và gạo, giúp cung cấp đầy đủ các
+                                    chất dinh dưỡng cần thiết cho sự phát triển
+                                    và duy trì sức khỏe của mèo.
+                                </p>
+                                <span class="product-type">Thức Ăn</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">200.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/suckhoe1.webp"
+                                alt="Nước Vệ Sinh Răng Miệng Hỗ Trợ Sức Khỏe Cho Chó Tropiclean 473ml"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Nước Vệ Sinh Răng Miệng Hỗ Trợ Sức Khỏe Cho
+                                    Chó Tropiclean 473ml
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Nước vệ sinh răng miệng Fresh Breath
+                                    Tropiclean giúp giảm mùi hôi miệng, ngăn
+                                    ngừa cao răng hỗ trợ sức khỏe cho chó.
+                                </p>
+                                <span class="product-type">Sức khỏe</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">300.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/suckhoe2.webp"
+                                alt="Pate Cho Chó Mèo Phục Hồi Sức Khỏe Royal Canin Recovery Lon 195g"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Pate Cho Chó Mèo Phục Hồi Sức Khỏe Royal
+                                    Canin Recovery Lon 195g
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    ROYAL CANIN RECOVERY là một loại thức ăn cho
+                                    chó và mèo được đánh giá cao, ngon miệng,
+                                    hoàn hảo và cân bằng nhằm hỗ trợ dinh dưỡng
+                                    giúp phục hồi sức khỏe cho chó mèo và được
+                                    sự hướng dẫn của bác sĩ thú y.
+                                </p>
+                                <span class="product-type">Sức khỏe</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">77.500đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/phukien2.webp"
+                                alt="Túi Vận Chuyển Chó Mèo Có Ngăn Phụ"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Túi Vận Chuyển Chó Mèo Có Ngăn Phụ
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Túi vận chuyển chó mèo có ngăn phụ là một
+                                    loại túi được thiết kế đặc biệt để vận
+                                    chuyển chó mèo. Túi được làm bằng vải dày
+                                    dặn, bảo vệ thú cưng của bạn an toàn. Túi
+                                    vận chuyển có nhiều kích cỡ khác nhau, đơn
+                                    giản và chắc chắn, phù hợp với mọi kích
+                                    thước chó mèo. Với mẫu túi chó mèo này,
+                                    chúng ta có thể đựng thú cưng vào và xách
+                                    tay hoặc đeo chéo rất tiện lợi.
+                                </p>
+                                <span class="product-type">Phụ kiện</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">210.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/dochoi-2.jpg"
+                                alt="Đồ Chơi Cho Chó Thú Bông Glamour"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Đồ Chơi Cho Chó Thú Bông Glamour
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Đồ chơi cho chó Glamour là một sản phẩm được
+                                    làm bởi AFP để giúp thú cưng giải trí, vận
+                                    động và phát triển trí thông minh. Với 20
+                                    năm kinh nghiệm thiết kế đầy tính sáng tạo,
+                                    giàu kinh nghiệm, nhân viên chuyên nghiệp và
+                                    đội ngũ quản lý có năng lực, AFP đã cung cấp
+                                    95% sản phẩm dành cho thú cưng chất lượng
+                                    tốt sang thị trường châu Âu và Châu Mỹ. Các
+                                    sản phẩm của AFP được làm từ chất liệu cao
+                                    cấp, an toàn cho sức khỏe, có nhiều hình
+                                    dạng và kích thước khác nhau, phù hợp với
+                                    mọi loại thú cưng.
+                                </p>
+                                <span class="product-type">Đồ chơi</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">150.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list-left">
+                            <img
+                                src="/assets/img/dochoi-3.webp"
+                                alt="Đồ Chơi Cho Chó Thú Bông Ultrasonic"
+                                class="product-img"
+                            />
+                            <div class="list-info">
+                                <h4 class="product-name">
+                                    Đồ Chơi Cho Chó Thú Bông Ultrasonic
+                                </h4>
+                                <p class="list-product-desc line-clamp">
+                                    Đồ chơi cho chó Ultrasonic là một sản phẩm
+                                    được làm bởi AFP để giúp thú cưng giải trí,
+                                    vận động và phát triển trí thông minh. Với
+                                    20 năm kinh nghiệm thiết kế đầy tính sáng
+                                    tạo, giàu kinh nghiệm, nhân viên chuyên
+                                    nghiệp và đội ngũ quản lý có năng lực, AFP
+                                    đã cung cấp 95% sản phẩm dành cho thú cưng
+                                    chất lượng tốt sang thị trường châu Âu và
+                                    Châu Mỹ. Các sản phẩm của AFP được làm từ
+                                    chất liệu cao cấp, an toàn cho sức khỏe, có
+                                    nhiều hình dạng và kích thước khác nhau, phù
+                                    hợp với mọi loại thú cưng.
+                                </p>
+                                <span class="product-type">Đồ chơi</span>
+                            </div>
+                        </div>
+                        <div class="list-right">
+                            <div class="list-price">
+                                <span class="list-current-price">200.000đ</span>
+                            </div>
+                            <div class="list-control">
+                                <div class="list-tool">
+                                    <label for="edit-product" class="btn-edit">
+                                        <i
+                                            class="fa-regular fa-pen-to-square"
+                                        ></i>
+                                    </label>
+                                    <button class="btn-delete" id="myButton">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-nav">
+                    <ul class="pages">
+                        <li class="page previous-page">
+                            <svg
+                                viewBox="64 64 896 896"
+                                focusable="false"
+                                data-icon="left"
+                                width="12px"
+                                height="12px"
+                                fill="currentColor"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                                ></path>
+                            </svg>
+                        </li>
+                        <li class="page current-page">1</li>
+                        <li class="page">2</li>
+                        <li class="page">3</li>
+                        <li class="page">4</li>
+                        <li class="page next-page">
+                            <svg
+                                viewBox="64 64 896 896"
+                                focusable="false"
+                                data-icon="right"
+                                width="12px"
+                                height="12px"
+                                fill="currentColor"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                                ></path>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Modal Add New Product -->
+            <div class="modal">
+                <input
+                    type="checkbox"
+                    name="add-product"
+                    id="add-product"
+                    class="modal-checkbox"
+                    hidden
+                />
+
+                <div class="modal-add-product" style="height: 500px;">
+                    <label for="add-product" class="modal-close">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                            width="24px"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18 18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </label>
+                    <h3 class="modal-add-product-title">THÊM MỚI SẢN PHẨM</h3>
+                    <div class="modal-content">
+                        <form action="" class="add-product-form">
+                            <div class="modal-content-left">
+                                <img
+                                    src="/assets/img/blank-image.png"
+                                    alt=""
+                                    class="upload-img-preview"
+                                />
+                                <div class="form-group file">
+                                    <label
+                                        for="upload-image"
+                                        class="form-label-file"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="2.5"
+                                            stroke="currentColor"
+                                            class="size-6"
+                                            style="width: 20px; margin-top: 3px"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5"
+                                            />
+                                        </svg>
+                                        <span>Chọn hình ảnh</span></label
+                                    >
+                                    <!-- <input
+                                        type="file"
+                                        name="upload-image"
+                                        id="upload-image"
+                                    /> -->
+                                </div>
+                            </div>
+                            <div class="modal-content-right">
+                                <div class="form-group">
+                                    <label for="product-name" class="form-label"
+                                        >Tên sản phẩm</label
+                                    >
+                                    <br />
+                                    <input
+                                        type="text"
+                                        name="product-name"
+                                        id="product-name"
+                                        class="form-control"
+                                        placeholder="Nhập tên sản phẩm"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="category" class="form-label"
+                                        >Chọn loại</label
+                                    >
+                                    <select name="category" id="category">
+                                        <option value="1" selected>
+                                            Thức ăn
+                                        </option>
+                                        <option value="2">Đồ chơi</option>
+                                        <option value="3">Phụ kiện</option>
+                                        <option value="4">Đồ vệ sinh</option>
+                                        <option value="5">Sức khỏe</option>
+                                        <option value="6">Chăm nuôi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-price" class="form-label"
+                                        >Giá bán</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="new-price"
+                                        id="new-price"
+                                        class="form-control"
+                                        placeholder="Nhập giá bán"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="quantity" class="form-label">Số lượng</label>
+                                    <input
+                                        type="text"
+                                        name="quantity"
+                                        id="quantity"
+                                        class="form-control"
+                                        placeholder="Nhập số lượng"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-desc" class="form-label"
+                                        >Mô tả</label
+                                    >
+                                    <textarea
+                                        name="product-desc"
+                                        id="product-desc"
+                                        class="product-desc"
+                                        placeholder="Nhập mô tả sản phẩm..."
+                                    ></textarea>
+                                </div>
+                                <button class="add-product-submit">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="2.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="20px"
+                                        style="margin-top: -3px"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M12 4.5v15m7.5-7.5h-15"
+                                        />
+                                    </svg>
+                                    <span>Thêm Sản Phẩm</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Edit Information Product -->
+            <div class="modal">
+                <input
+                    type="checkbox"
+                    name="edit-product"
+                    id="edit-product"
+                    class="edit-checkbox"
+                    hidden
+                />
+                <div class="modal-edit-product">
+                    <label for="edit-product" class="modal-close">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="size-6"
+                            width="24px"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18 18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </label>
+                    <h3 class="modal-edit-product-title">CHỈNH SỬA SẢN PHẨM</h3>
+                    <div class="modal-content">
+                        <form action="" class="edit-product-form">
+                            <div class="modal-content-left">
+                                <img
+                                    src="/assets/img/pro-2.jpg"
+                                    alt=""
+                                    class="upload-img-preview"
+                                />
+                                <div class="form-group file">
+                                    <label
+                                        for="upload-image"
+                                        class="form-label-file"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="2.5"
+                                            stroke="currentColor"
+                                            class="size-6"
+                                            style="width: 20px; margin-top: 3px"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 3m0 0 4.5 4.5M12 3v13.5"
+                                            />
+                                        </svg>
+                                        <span>Chọn hình ảnh</span></label
+                                    >
+                                    <!-- <input
+                                        type="file"
+                                        name="upload-image"
+                                        id="upload-image"
+                                    /> -->
+                                </div>
+                            </div>
+                            <div class="modal-content-right">
+                                <div class="form-group">
+                                    <label for="product-name" class="form-label"
+                                        >Tên sản phẩm</label
+                                    >
+                                    <br />
+                                    <input
+                                        type="text"
+                                        name="product-name"
+                                        id="product-name"
+                                        class="form-control"
+                                        placeholder="Nhập tên sản phẩm"
+                                        value="Thức Ăn Hạt Mềm Cho Chó ANF- Soft Vị Gà 1.2KG"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="category" class="form-label"
+                                        >Chọn loại</label
+                                    >
+                                    <select name="category" id="category">
+                                        <option value="1" selected>Thức ăn</option>
+                                        <option value="2">Đồ chơi</option>
+                                        <option value="3">Phụ kiện</option>
+                                        <option value="4">
+                                            Đồ vệ sinh
+                                        </option>
+                                        <option value="5">Sức khỏe</option>
+                                        <option value="6">Chăm nuôi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-name" class="form-label"
+                                        >Thêm size:</label
+                                    >
+                                    <br />
+                                    <div class="form-group__row" style="display: flex; justify-content: space-around;">
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <label for="small size">500g</label>
+                                            <input type="checkbox" id="small size" checked />
+                                        </div>
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <label for="medium size">1.2kg</label>
+                                            <input type="checkbox" id="medium size" checked />
+                                        </div>
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <label for="large size">3kg</label>
+                                            <input type="checkbox" id="large size" checked />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-price" class="form-label"
+                                        >Giá bán</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="new-price"
+                                        id="new-price"
+                                        class="form-control"
+                                        placeholder="Nhập giá bán"
+                                        value="102.500đ"
+                                    />
+                                </div>
+                                <div class="form-group">
+                                    <label for="product-desc" class="form-label">Mô tả</label>
+                                    <textarea name="prduct-desc" id="product-desc" class="product-desc" placeholder="Nhập mô tả sản phẩm...">Phương pháp đặc biệt “Water Tight” – Kín nước là phương pháp giữ chặt nước bên trong kết cấu của hạt, giúp nước không thoát ra ngoài để tạo độ ẩm, mềm xốp cho hạt và ức chế nấm mốc, vi sinh vật xuất hiện ở độ ẩm cao, đồng thời ngăn chặn nguyên nhân gây ra phân lỏng.Cá hồi và thịt gà giúp cải thiện khả năng tiêu hóa và tăng cảm giác ngon miệng
+                                    </textarea>
+                                </div>
+                                <button class="edit-product-submit">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="currentColor"
+                                        class="size-6"
+                                        width="20px"
+                                        style="margin-top: -3px"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
+                                        />
+                                    </svg>
+                                    <span>Lưu Thay Đổi</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const deleteButtons = document.querySelectorAll(".btn-delete");
+
+            // Gắn sự kiện click cho từng nút
+            deleteButtons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    // Tìm thẻ cha chứa thông tin sản phẩm
+                    const productInfo = button.closest(".list");
+                    const productName = productInfo.querySelector(".product-name").textContent.trim();
+                    // Hiển thị hộp thoại confirm
+                    const confirmed = confirm(`Bạn có chắc chắn muốn xóa sản phẩm?`);
+                });
+            });
+        </script>
+        <!-- JS Animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                once: "true",
+            });
+        </script>
+    </body>
+</html>
