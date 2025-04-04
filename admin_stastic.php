@@ -1,3 +1,11 @@
+<?php
+session_start();
+// Kiểm tra xem người dùng đã đăng nhập và là admin chưa
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+    header("Location: /login.php?error=Bạn không có quyền truy cập");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Thống kê</title>
         <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="admin_stastic.css" />
-        <link rel="stylesheet" href="sidebarAdmin.css" />
+        <link rel="stylesheet" href="./assets/link/admin_stastic.css" />
+        <link rel="stylesheet" href="./assets/link/sidebarAdmin.css" />
         <!-- Embeded Icons -->
         <link
             rel="stylesheet"
@@ -111,7 +119,7 @@
         <div class="container">
             <aside class="sidebar open">
                 <div class="top-sidebar">
-                    <a href="/assets/link/admin_home.html" class="petshop-logo"
+                    <a href="admin_home.php" class="petshop-logo"
                         ><img src="/assets/img/mainlogo.png" alt="Antony Logo"
                     /></a>
                 </div>
@@ -119,7 +127,7 @@
                     <ul class="sidebar-list">
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_home.html"
+                                href="admin_home.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -147,7 +155,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_product.html"
+                                href="admin_product.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -175,7 +183,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_clients.html"
+                                href="admin_clients.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -202,7 +210,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_order.html"
+                                href="admin_order.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -229,7 +237,7 @@
                         </li>
                         <li class="sidebar-list-item active">
                             <a
-                                href="/assets/link/admin_stastic.html"
+                                href="admin_stastic.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -280,7 +288,7 @@
                         </li>
                         <li class="sidebar-list-item user-logout">
                             <a
-                                href="/assets/link/login.html"
+                                href="login.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -485,7 +493,7 @@
                                 <td>750,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -504,7 +512,7 @@
                                 <td>400,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -526,7 +534,7 @@
                                 <td>750,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -545,7 +553,7 @@
                                 <td>950,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -567,7 +575,7 @@
                                 <td>700,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -588,7 +596,7 @@
                                 <td>600,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -609,7 +617,7 @@
                                 <td>850,000 VNĐ</td>
                                 <td>
                                     <a
-                                        href="/assets/link/ANTONY Shop.pdf"
+                                        href="ANTONY Shop.pdf"
                                         target="_blank"
                                         style="color: #000"
                                         class="view-btn"
@@ -680,35 +688,35 @@
                                     <td>Nguyen Ngoc Anh</td>
                                     <td>$800,000</td>
                                     <td>Thức ăn cho chó Zoi Dog Mix 1kg</td>
-                                    <td><a class="view-btn" href="/assets/link/ANTONY Shop.pdf" target="_blank">View</a></td>
+                                    <td><a class="view-btn" href="ANTONY Shop.pdf" target="_blank">View</a></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>Nguyễn Văn Bảo</td>
                                     <td>$700,000</td>
                                     <td>Thức ăn cho mèo ANF vị gà 1.2kg</td>
-                                    <td><a class="view-btn" href="/assets/link/ANTONY Shop.pdf" target="_blank">View</a></td>
+                                    <td><a class="view-btn" href="ANTONY Shop.pdf" target="_blank">View</a></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Nguyễn Ngọc Châu</td>
                                     <td>$600,000</td>
                                     <td>Khây vệ sinh cho mèo hình con vịt</td>
-                                    <td><a class="view-btn" href="/assets/link/ANTONY Shop.pdf" target="_blank">View</a></td>
+                                    <td><a class="view-btn" href="ANTONY Shop.pdf" target="_blank">View</a></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Phạm Tấn Dũng</td>
                                     <td>$300,000</td>
                                     <td>Bát ăn đôi cho chó mèo hình cá</td>
-                                    <td><a class="view-btn" href="/assets/link/ANTONY Shop.pdf" target="_blank">View</a></td>
+                                    <td><a class="view-btn" href="ANTONY Shop.pdf" target="_blank">View</a></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Đặng Gia Hân</td>
                                     <td>$200,000</td>
                                     <td>Đồ chơi cầu gai phát sáng</td>
-                                    <td><a class="view-btn" href="/assets/link/ANTONY Shop.pdf" target="_blank">View</a></td>
+                                    <td><a class="view-btn" href="ANTONY Shop.pdf" target="_blank">View</a></td>
                                 </tr>
                             </tbody>
                         </table>

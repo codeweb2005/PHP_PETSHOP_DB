@@ -1,6 +1,6 @@
 
-<!DOCTYPE php>
-<php lang="vi">
+<!DOCTYPE html>
+<html lang="vi">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,19 +14,19 @@
             referrerpolicy="no-referrer"
         />
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="../assets/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="./assets/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
@@ -45,232 +45,11 @@
                     <div class="header-logo">
                         <a href="/index.php">
                             <img
-                                src="../assets/img/mainlogo.png"
+                                src="./assets/img/mainlogo.png"
                                 alt=""
                                 class="logo"
                             />
                         </a>
-                    </div>
-                    <!-- Search -->
-                    <div class="header__search">
-                        <div class="search-form">
-                            <form action="">
-                                <input
-                                    type="text"
-                                    class="search-form__input"
-                                    placeholder="Bạn cần tìm..."
-                                />
-                            </form>
-                            <div class="search-form__btn">
-                                <i
-                                    class="fa-solid fa-magnifying-glass search-form__icon"
-                                ></i>
-                            </div>
-
-                            <!-- Search Result -->
-                            <div class="search-recommend">
-                                <div class="search-recommend__heading">
-                                    <div class="search-recommend__top-row">
-                                        Kết quả tìm kiếm cho
-                                        <strong
-                                            style="color: red; margin-left: 3px"
-                                            >túi đựng</strong
-                                        >
-                                        <div class="search-recommend__icon">
-                                            <i class="fa-solid fa-list"></i>
-                                            <i
-                                                class="fa-solid fa-table-cells"
-                                            ></i>
-                                        </div>
-                                    </div>
-                                    <div class="search-recommend__tittle">
-                                        Hiển thị kết quả theo:
-                                    </div>
-                                </div>
-                                <div class="search-list">
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/catfood-3.jpg"
-                                            alt="
-                                        Thức ăn sấy khô cho mèo thịt thật
-                                        CATIDEA Fairy Chef Freeze Dried Raw 6in1
-                                        Thương hiệu CATIDEA
-                                    "
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Thức ăn sấy khô cho mèo thịt
-                                                thật CATIDEA Fairy Chef Freeze
-                                                Dried Raw 6in1 Thương hiệu
-                                                CATIDEA
-                                            </span>
-                                            <span class="search-item__price"
-                                                >155.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/dogfood-4.jpg"
-                                            alt="
-                                        Pate cho chó nước sốt vị thịt bò
-                                        PEDIGREE Pouch Beef Thương hiệu PEDIGREE
-                                    "
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Pate cho chó nước sốt vị thịt bò
-                                                PEDIGREE Pouch Beef Thương hiệu
-                                                PEDIGREE
-                                            </span>
-                                            <span class="search-item__price"
-                                                >25.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/catfood-6.jpg"
-                                            alt="
-                                        Bánh thưởng cho mèo vị bạc hà MEOW FUN
-                                        Peppermint Cod Thương hiệu BUDGE
-                                    "
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Bánh thưởng cho mèo vị bạc hà
-                                                MEOW FUN Peppermint Cod Thương
-                                                hiệu BUDGE
-                                            </span>
-                                            <span class="search-item__price"
-                                                >135.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/catfood-1.jpg"
-                                            alt="
-                                        Thức ăn cho mèo Anh lông ngắn CATIDEA
-                                        Fairy Chef British Shorthair Thương hiệu
-                                        CATIDEA
-                                    "
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Thức ăn cho mèo Anh lông ngắn
-                                                CATIDEA Fairy Chef British
-                                                Shorthair Thương hiệu CATIDEA
-                                            </span>
-                                            <span class="search-item__price"
-                                                >315.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/dogfood-1.jpg"
-                                            alt="
-                                        Thức ăn cho chó con PURINA PRO PLAN
-                                        Small &amp; Mini Puppy Thương hiệu PURINA
-                                        PRO PLAN
-                                    "
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Thức ăn cho chó con PURINA PRO
-                                                PLAN Small &amp; Mini Puppy
-                                                Thương hiệu PURINA PRO PLAN
-                                            </span>
-                                            <span class="search-item__price"
-                                                >135.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/dogfood-10.jpg"
-                                            alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Thức ăn cho chó MKB Breed &
-                                                Train Nutrition Mass Gainer
-                                            </span>
-                                            <span class="search-item__price"
-                                                >240.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                    <a
-                                        href="detail.php"
-                                        class="search-item"
-                                    >
-                                        <img
-                                            src="./assets/img/dogfood-8.jpg"
-                                            alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
-                                            class="search-item__img"
-                                        />
-                                        <div class="search-item__info">
-                                            <span
-                                                class="search-item__name line-clamp"
-                                            >
-                                                Thức ăn cho chó MKB Breed &
-                                                Train Nutrition Mass Gainer
-                                            </span>
-                                            <span class="search-item__price"
-                                                >190.000đ</span
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="search-recommend__bottom">
-                                    <a href="pageProduct.php">
-                                        Xem thêm kết quả có chứa
-                                        <strong
-                                            style="color: red; margin-left: 3px"
-                                            >thức ăn</strong
-                                        >
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <!-- Sign Up & Cart  -->
                     <div class="header__cta">
@@ -279,7 +58,6 @@
                             <p class="user-title">Account</p>
                             <div class="account-btn">
                                 <a
-                                    href="login.php"
                                     class="signin-btn btn"
                                 >
                                     <span>Đăng nhập</span>
@@ -346,7 +124,12 @@
                     >Đăng ký tại đây</a
                 >
             </p>
-            <form action="#" method="post" class="login-form">
+            <form action="./assets/php_function/auth.php" method="post" class="login-form">
+                <?php if (isset($_GET['error'])) { ?>
+            <div class="alert alert-danger" role="alert">
+                <?=htmlspecialchars($_GET['error']); ?>
+            </div>
+            <?php } ?>
                 <div class="form-group">
                     <label for="email">Email *</label>
                     <input
@@ -372,14 +155,13 @@
                         >Quên mật khẩu? Nhấn vào đây</a
                     >
                 </p>
-                <a
-                    href="afterLogin.php"
+                <button
                     type="submit"
                     class="submit-btn"
                     style="font-weight: 600; display: inline-block"
                 >
                     Đăng nhập
-                </a>
+                </button>
             </form>
         </div>
 
@@ -522,7 +304,7 @@
                                 </div>
                                 <img
                                     class="footer-icon__pay"
-                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449./assets/payment.png?1726189697911"
+                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449/assets/payment.png?1726189697911"
                                     alt="Phương thức thanh toán"
                                     width="276"
                                     height="45"
@@ -574,4 +356,4 @@
             });
         </script>
     </body>
-</php>
+</html>

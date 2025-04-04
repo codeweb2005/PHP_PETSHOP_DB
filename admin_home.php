@@ -1,3 +1,11 @@
+<?php
+session_start();
+// Kiểm tra xem người dùng đã đăng nhập và là admin chưa
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+    header("Location: /login.php?error=Bạn không có quyền truy cập");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Trang Tổng Quan</title>
         <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="admin_home.css" />
+        <link rel="stylesheet" href="./assets/link/admin_home.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -52,14 +60,14 @@
         <div class="container">
             <aside class="sidebar open">
                 <div class="top-sidebar">
-                    <a href="/assets/link/admin_home.html" class="petshop-logo"
+                    <a href="admin_home.php" class="petshop-logo"
                         ><img src="/assets/img/mainlogo.png" alt="Antony Logo"
                     /></a>
                 </div>
                 <div class="middle-sidebar">
                     <ul class="sidebar-list">
                         <li class="sidebar-list-item active">
-                            <a href="/assets/link/admin_home.html" class="sidebar-link">
+                            <a href="admin_home.php" class="sidebar-link">
                                 <div class="sidebar-icon">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +92,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item">
-                            <a href="/assets/link/admin_product.html" class="sidebar-link">
+                            <a href="admin_product.php" class="sidebar-link">
                                 <div class="sidebar-icon">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +117,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item">
-                            <a href="/assets/link/admin_clients.html" class="sidebar-link" id="logout-acc">
+                            <a href="admin_clients.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +140,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item">
-                            <a href="/assets/link/admin_order.html" class="sidebar-link" id="logout-acc">
+                            <a href="admin_order.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -155,7 +163,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item">
-                            <a href="/assets/link/admin_stastic.html" class="sidebar-link" id="logout-acc">
+                            <a href="admin_stastic.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -202,7 +210,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item user-logout">
-                            <a href="/assets/link/login.html" class="sidebar-link" id="logout-acc">
+                            <a href="login.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <i
                                         class="fa-solid fa-arrow-right-from-bracket"
@@ -244,7 +252,7 @@
                             </div>
                         </div>
                         <strong class="card-amount">12</strong>
-                        <a href="/assets/link/admin_clients.html" class="card-link">Tất cả khách hàng</a>
+                        <a href="admin_clients.php" class="card-link">Tất cả khách hàng</a>
                     </div>
                     <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                         <div class="card-top">
@@ -274,7 +282,7 @@
                             </div>
                         </div>
                         <strong class="card-amount">09</strong>
-                        <a href="/assets/link/admin_order.html" class="card-link">Tất cả đơn hàng</a>
+                        <a href="admin_order.php" class="card-link">Tất cả đơn hàng</a>
                     </div>
                     <div class="card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                         <div class="card-top">
@@ -303,7 +311,7 @@
                             </div>
                         </div>
                         <strong class="card-amount">2005</strong>
-                        <a href="/assets/link/admin_stastic.html" class="card-link">Xem doanh thu</a>
+                        <a href="admin_stastic.php" class="card-link">Xem doanh thu</a>
                     </div>
                 </div>
                 <div class="recent-orders">
@@ -437,7 +445,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <a href="/assets/link/admin_order.html" class="view-details">Xem chi tiết</a>
+                    <a href="admin_order.php" class="view-details">Xem chi tiết</a>
                 </div>
             </main>
         </div>

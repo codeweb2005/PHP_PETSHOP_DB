@@ -1,3 +1,11 @@
+<?php
+session_start();
+// Kiểm tra xem người dùng đã đăng nhập và là admin chưa
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+    header("Location: /login.php?error=Bạn không có quyền truy cập");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quản Lí Khách Hàng</title>
         <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="admin_clients.css" />
-        <link rel="stylesheet" href="sidebarAdmin.css" />
+        <link rel="stylesheet" href="./assets/link/admin_clients.css" />
+        <link rel="stylesheet" href="./assets/link/sidebarAdmin.css" />
         <!-- Embeded Icons -->
         <link
             rel="stylesheet"
@@ -30,7 +38,7 @@
         <div class="container">
             <aside class="sidebar open">
                 <div class="top-sidebar">
-                    <a href="/assets/link/admin_home.html" class="petshop-logo"
+                    <a href="admin_home.php" class="petshop-logo"
                         ><img src="/assets/img/mainlogo.png" alt="Antony Logo"
                     /></a>
                 </div>
@@ -38,7 +46,7 @@
                     <ul class="sidebar-list">
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_home.html"
+                                href="admin_home.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -66,7 +74,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_product.html"
+                                href="admin_product.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -94,7 +102,7 @@
                         </li>
                         <li class="sidebar-list-item active">
                             <a
-                                href="/assets/link/admin_clients.html"
+                                href="admin_clients.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -121,7 +129,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_order.html"
+                                href="admin_order.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -148,7 +156,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_stastic.html"
+                                href="admin_stastic.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -198,7 +206,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item user-logout">
-                            <a href="/assets/link/login.html" class="sidebar-link" id="logout-acc">
+                            <a href="login.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <i
                                         class="fa-solid fa-arrow-right-from-bracket"
@@ -274,267 +282,11 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Văn Tuấn</td>
-                                <td>0951305833</td>
-                                <td>12/09/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Thành Đạt</td>
-                                <td>0954829481</td>
-                                <td>24/08/2024</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Bị chặn</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Thảo Linh</td>
-                                <td>0552332891</td>
-                                <td>02/10/2024</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Bị chặn</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Công Danh</td>
-                                <td>0933252572</td>
-                                <td>24/08/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Thành Công</td>
-                                <td>0983642636</td>
-                                <td>20/08/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Mỹ Hân</td>
-                                <td>0921345232</td>
-                                <td>12/07/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td>Thảo Linh</td>
-                                <td>0936232383</td>
-                                <td>15/07/2024</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Bị Chặn</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>8</td>
-                                <td>Ánh Linh</td>
-                                <td>0933252242</td>
-                                <td>21/06/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>9</td>
-                                <td>Thiên Phúc</td>
-                                <td>0971121565</td>
-                                <td>24/03/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>10</td>
-                                <td>Văn Phát</td>
-                                <td>0984159454</td>
-                                <td>12/01/2024</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Hoạt động</span
-                                    >
-                                </td>
-                                <td>
-                                    <div class="list-tool">
-                                        <label
-                                            for="edit-client"
-                                            class="btn-edit"
-                                        >
-                                            <i
-                                                class="fa-regular fa-pen-to-square"
-                                            ></i>
-                                        </label>
-                                        <button class="btn-delete">
-                                            <i class="fa-solid fa-trash"></i>
-                                        </button>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
+                            <?php
+                            include_once "./assets/php_function/getAllClients.php";
+                            displayCustomers($conn);
+                            ?>
+                            </tbody>
                     </table>
                     <div class="page-nav table-page">
                         <ul class="pages">
@@ -606,7 +358,8 @@
                     </label>
                     <h3 class="modal-add-client-title">THÊM KHÁCH HÀNG MỚI</h3>
                     <div class="form-content sign-up">
-                        <form action="" class="signup-form">
+                        <form action="" method="POST"class="signup-form"enctype="multipart/form-data">
+                        <?php include './assets/php_function/add_client.php'; ?>
                             <div class="form-group">
                                 <label for="fullname" class="form-label"
                                     >Tên đăng nhập</label
@@ -646,7 +399,8 @@
                                     class="form-control"
                                 />
                             </div>
-                            <button class="signin-btn">Đăng ký</button>
+                            
+                            <button class="add_customer" type="submit" name="add_customer" >Đăng ký</button>
                         </form>
                     </div>
                 </div>

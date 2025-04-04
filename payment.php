@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Nhà vệ sinh cho mèo PAW Space Helmet Cat Litter Boxes</title>
-        <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="payment.css" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/link/payment.css" />
         <!-- Embed Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,20 +22,20 @@
             referrerpolicy="no-referrer"
         />
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/assets/favicon/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -52,9 +52,9 @@
                 <div class="header__body">
                     <!-- Logo -->
                     <div class="header-logo">
-                        <a href="/assets/link/afterLogin.html">
+                        <a href="./assets/link/afterLogin.html">
                             <img
-                                src="/assets/img/mainlogo.png"
+                                src="./assets/img/mainlogo.png"
                                 alt=""
                                 class="logo"
                             />
@@ -64,7 +64,7 @@
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
                             1 -
-                            <a href="/assets/link/gioHang.html"> Giỏ hàng</a>
+                            <a href="./assets/link/gioHang.html"> Giỏ hàng</a>
                             <svg
                                 width="20"
                                 height="20"
@@ -526,7 +526,7 @@
                                             />
                                             <label for="payoo-payment">
                                                 <img
-                                                    src="/assets/img/payoo.svg"
+                                                    src="./assets/img/payoo.svg"
                                                     alt="Payoo-payment"
                                                     class="payoo-payment__img payment-img"
                                                 />
@@ -750,7 +750,7 @@
                                             />
                                             <label for="momo-payment">
                                                 <img
-                                                    src="/assets/img/momo.svg"
+                                                    src="./assets/img/momo.svg"
                                                     alt="Momo"
                                                     class="momo-payment__img payment-img"
                                                 />
@@ -772,9 +772,9 @@
                         </label>
                         <div class="your-order">
                             <div class="list-order">
-                                <a href="/assets/link/afterDetail.html" class="order-item">
+                                <a href="./assets/link/afterDetail.html" class="order-item">
                                     <div class="order-item__thumbnail">
-                                        <img src="/assets/img/cart-1.webp" alt="Pate Mèo Mẹ & Mèo Con Royal Canin Mother & Babycat" class="order-item__img">    
+                                        <img src="./assets/img/cart-1.webp" alt="Pate Mèo Mẹ & Mèo Con Royal Canin Mother & Babycat" class="order-item__img">    
                                         <span class="order-item__quantity">1</span>
                                     </div>
                                     <div class="order-item__info">
@@ -783,9 +783,9 @@
                                     </div>
                                     <span class="order-item__price">54.600đ</span>
                                 </a>
-                                <a href="/assets/link/afterDetail.html" class="order-item">
+                                <a href="./assets/link/afterDetail.html" class="order-item">
                                     <div class="order-item__thumbnail">
-                                        <img src="/assets/img/cart-2.webp" alt="Thức Ăn Hạt Cho Chó Con Giống Vừa Royal Canin Medium Puppy" class="order-item__img">    
+                                        <img src="./assets/img/cart-2.webp" alt="Thức Ăn Hạt Cho Chó Con Giống Vừa Royal Canin Medium Puppy" class="order-item__img">    
                                         <span class="order-item__quantity">1</span>
                                     </div>
                                     <div class="order-item__info">
@@ -794,9 +794,9 @@
                                     </div>
                                     <span class="order-item__price">215.000đ</span>
                                 </a>
-                                <a href="/assets/link/afterDetail.html" class="order-item">
+                                <a href="./assets/link/afterDetail.html" class="order-item">
                                     <div class="order-item__thumbnail">
-                                        <img src="/assets/img/cart-3.webp" alt="Sữa Tắm Davis Ketohexidine Trị Viêm Da Lông Chó Mèo" class="order-item__img">    
+                                        <img src="./assets/img/cart-3.webp" alt="Sữa Tắm Davis Ketohexidine Trị Viêm Da Lông Chó Mèo" class="order-item__img">    
                                         <span class="order-item__quantity">1</span>
                                     </div>
                                     <div class="order-item__info">
@@ -805,9 +805,9 @@
                                     </div>
                                     <span class="order-item__price">390.000đ</span>
                                 </a>
-                                <a href="/assets/link/afterDetail.html" class="order-item">
+                                <a href="./assets/link/afterDetail.html" class="order-item">
                                     <div class="order-item__thumbnail">
-                                        <img src="/assets/img/catfood-1.jpg" alt="Catnip cho mèo dạng que BIOLINE Catnip Dental Stick Thương hiệu BIOLINE" class="order-item__img">    
+                                        <img src="./assets/img/catfood-1.jpg" alt="Catnip cho mèo dạng que BIOLINE Catnip Dental Stick Thương hiệu BIOLINE" class="order-item__img">    
                                         <span class="order-item__quantity">1</span>
                                     </div>
                                     <div class="order-item__info">
@@ -816,9 +816,9 @@
                                     </div>
                                     <span class="order-item__price">265.000đ</span>
                                 </a>
-                                <!-- <a href="/assets/link/afterDetail.html" class="order-item">
+                                <!-- <a href="./assets/link/afterDetail.html" class="order-item">
                                     <div class="order-item__thumbnail">
-                                        <img src="/assets/img/catfood-5.jpg" alt="" class="order-item__img">    
+                                        <img src="./assets/img/catfood-5.jpg" alt="" class="order-item__img">    
                                         <span class="order-item__quantity">1</span>
                                     </div>
                                     <div class="order-item__info">
@@ -872,7 +872,7 @@
         <div class="checkout-step">
             <div class="container">
                 <div class="step-footer">
-                    <a href="/assets/link/gioHang.html" class="step-footer__turnback">quay lại giỏ hàng</a>
+                    <a href="./assets/link/gioHang.html" class="step-footer__turnback">quay lại giỏ hàng</a>
                     <a href="#!" class="step-footer__success-checkout disabled">hoàn tất đơn hàng</a>
                 </div>
             </div>

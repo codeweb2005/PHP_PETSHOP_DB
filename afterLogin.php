@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -305,7 +305,7 @@
                     <div class="header__body">
                         <!-- Logo -->
                         <div class="header-logo">
-                            <a href="./assets/link/afterLogin.html">
+                            <a href="afterLogin.php">
                                 <img
                                     src="./assets/img/mainlogo.png"
                                     alt=""
@@ -354,7 +354,7 @@
                                     </div>
                                     <div class="search-list">
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -381,7 +381,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -406,7 +406,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -431,7 +431,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -458,7 +458,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -485,7 +485,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -506,7 +506,7 @@
                                             </div>
                                         </a>
                                         <a
-                                            href="./assets/link/afterDetail.html"
+                                            href="afterDetail.php"
                                             class="search-item"
                                         >
                                             <img
@@ -529,7 +529,7 @@
                                     </div>
                                     <div class="search-recommend__bottom">
                                         <a
-                                            href="./assets/link/afterProductPage.html"
+                                            href="afterProductPage.php"
                                         >
                                             Xem thêm kết quả có chứa
                                             <strong
@@ -576,7 +576,7 @@
                                             <ul class="user-box__content">
                                                 <li class="user-box__item">
                                                     <a
-                                                        href="./assets/link/Personal_info.html"
+                                                        href="Personal_info.php"
                                                         style="
                                                             display: flex;
                                                             align-items: center;
@@ -597,7 +597,7 @@
                                                 </li>
                                                 <li class="user-box__item">
                                                     <a
-                                                        href="./assets/link/yourOrder.html"
+                                                        href="yourOrder.php"
                                                         style="
                                                             display: flex;
                                                             align-items: center;
@@ -618,7 +618,7 @@
                                                 </li>
                                                 <li class="user-box__item">
                                                     <a
-                                                        href="./assets/link/address.html"
+                                                        href="address.php"
                                                         style="
                                                             display: flex;
                                                             align-items: center;
@@ -639,7 +639,7 @@
                                                 </li>
                                                 <li class="user-box__item">
                                                     <a
-                                                        href="./assets/link/checkOrder.html"
+                                                        href="checkOrder.php"
                                                         style="
                                                             display: flex;
                                                             align-items: center;
@@ -660,7 +660,7 @@
                                                 </li>
                                                 <li class="user-box__item">
                                                     <a
-                                                        href="/index.html"
+                                                        href="/index.php"
                                                         style="
                                                             display: flex;
                                                             align-items: center;
@@ -694,7 +694,7 @@
                                         <div class="cart-box__items">
                                             <div class="cart-box__item">
                                                 <a
-                                                    href="./assets/link/afterDetail.html"
+                                                    href="afterDetail.php"
                                                     style="display: flex"
                                                 >
                                                     <img
@@ -757,7 +757,7 @@
                                             </div>
                                             <div class="cart-box__item">
                                                 <a
-                                                    href="./assets/link/afterDetail.html"
+                                                    href="afterDetail.php"
                                                     style="display: flex"
                                                 >
                                                     <img
@@ -820,7 +820,7 @@
                                             </div>
                                             <div class="cart-box__item">
                                                 <a
-                                                    href="./assets/link/afterDetail.html"
+                                                    href="afterDetail.php"
                                                     style="display: flex"
                                                 >
                                                     <img
@@ -884,7 +884,7 @@
                                             </div>
                                             <div class="cart-box__item">
                                                 <a
-                                                    href="./assets/link/afterDetail.html"
+                                                    href="afterDetail.php"
                                                     style="display: flex"
                                                 >
                                                     <img
@@ -956,7 +956,7 @@
                                             </p>
                                         </div>
                                         <a
-                                            href="./assets/link/gioHang.html"
+                                            href="gioHang.php"
                                             class="cart-box__btn"
                                             style="display: inline-block"
                                         >
@@ -980,7 +980,7 @@
                     <ul class="dog-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -998,7 +998,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1019,7 +1019,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1049,21 +1049,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1101,7 +1101,7 @@
                     <ul class="cat-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1119,7 +1119,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1140,7 +1140,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1170,21 +1170,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1227,7 +1227,7 @@
                     <ul class="service-cata__dropdown">
                         <!-- Services -->
                         <li class="dropdown__item services-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Dịch Vụ
                                 <ul class="services-type__list detail-list">
                                     <li class="services-type__item detail-item">
@@ -1242,7 +1242,7 @@
 
                         <!-- Delivery -->
                         <li class="dropdown__item delivery-dropdown__item">
-                            <a href="./assets/link/resultCataAfter.html">
+                            <a href="resultCataAfter.php">
                                 Phương Thức Giao Hàng
                                 <ul class="delivery-type__list detail-list">
                                     <li class="delivery-type__item detail-item">
@@ -1296,7 +1296,7 @@
                         </div>
                         <div class="seller-wrap">
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-1.jpg"
                                         alt="Royal Canin"
@@ -1317,7 +1317,7 @@
                                 </a>
                             </div>
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-2.jpg"
                                         alt="Snack bánh thưởng cho mèo CIAO Bonito, Chicken & Squid vị cá ngừ, thịt gà và mực"
@@ -1339,7 +1339,7 @@
                                 </a>
                             </div>
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-3.jpg"
                                         alt="Xương cho chó gặm vị sữa hình bàn chải VEGEBRAND Orgo High Calcium Milk Flavor"
@@ -1361,7 +1361,7 @@
                                 </a>
                             </div>
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-4.jpg"
                                         alt="Pate cho chó vị gan gà hầm nước sốt JERHIGH Chicken Liver Chunks In Gravy"
@@ -1383,7 +1383,7 @@
                                 </a>
                             </div>
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-5.jpg"
                                         alt="Balo đựng chó mèo phi hành gia LOFFE Square Transparent"
@@ -1404,7 +1404,7 @@
                                 </a>
                             </div>
                             <div class="seller-item">
-                                <a href="./assets/link/afterDetail.html">
+                                <a href="afterDetail.php">
                                     <img
                                         src="./assets/img/seller-6.jpg"
                                         alt="Sữa tắm cho chó trị ve rận BBN Killing Mites Shampoo"
@@ -1497,7 +1497,7 @@
                                 data-aos-delay="100"
                                 data-aos-duration="2000"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="new-item__thumbnail">
                                         <img
                                             src="./assets/img/newproduct3.jpg"
@@ -1531,7 +1531,7 @@
                                 data-aos-delay="300"
                                 data-aos-duration="2000"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="new-item__thumbnail">
                                         <img
                                             src="./assets/img/newproduct5.jpg"
@@ -1566,7 +1566,7 @@
                                 data-aos-delay="600"
                                 data-aos-duration="2000"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="new-item__thumbnail">
                                         <img
                                             src="./assets/img/newproduct6.jpg"
@@ -1600,7 +1600,7 @@
                                 data-aos-delay="900"
                                 data-aos-duration="2000"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="new-item__thumbnail">
                                         <img
                                             src="./assets/img/newproduct9.jpg"
@@ -1664,7 +1664,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="100"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-1.jpg"
@@ -1732,7 +1732,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="200"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-2.jpg"
@@ -1800,7 +1800,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="300"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-3.jpg"
@@ -1867,7 +1867,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="400"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-4.jpg"
@@ -1935,7 +1935,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="500"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-5.jpg"
@@ -2002,7 +2002,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="600"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-6.jpg"
@@ -2070,7 +2070,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="700"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-7.jpg"
@@ -2137,7 +2137,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="800"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/dogfood-8.jpg"
@@ -2342,7 +2342,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="200"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-1.jpg"
@@ -2410,7 +2410,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="400"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-2.jpg"
@@ -2478,7 +2478,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="600"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-3.jpg"
@@ -2546,7 +2546,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="800"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-4.jpg"
@@ -2613,7 +2613,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="1000"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-5.jpg"
@@ -2681,7 +2681,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="1200"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-6.jpg"
@@ -2748,7 +2748,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="1400"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-7.jpg"
@@ -2816,7 +2816,7 @@
                                 data-aos-duration="2000"
                                 data-aos-delay="1600"
                             >
-                                <a href="./assets/link/detail.html">
+                                <a href="detail.php">
                                     <div class="food-item__thumbnail">
                                         <img
                                             src="./assets/img/catfood-8.jpg"
@@ -3245,4 +3245,4 @@
             </script>
         </body>
     </head>
-</html>
+</php>

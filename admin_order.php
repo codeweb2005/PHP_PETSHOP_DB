@@ -1,3 +1,11 @@
+<?php
+session_start();
+// Kiểm tra xem người dùng đã đăng nhập và là admin chưa
+if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
+    header("Location: /login.php?error=Bạn không có quyền truy cập");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quản Lí Đơn Hàng</title>
         <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="admin_clients.css" />
-        <link rel="stylesheet" href="sidebarAdmin.css" />
+        <link rel="stylesheet" href="./assets/link/admin_clients.css" />
+        <link rel="stylesheet" href="./assets/link/sidebarAdmin.css" />
         <!-- Embeded Icons -->
         <link
             rel="stylesheet"
@@ -66,7 +74,7 @@
         <div class="container">
             <aside class="sidebar open">
                 <div class="top-sidebar">
-                    <a href="/assets/link/admin_home.html" class="petshop-logo"
+                    <a href="admin_home.php" class="petshop-logo"
                         ><img src="/assets/img/mainlogo.png" alt="Antony Logo"
                     /></a>
                 </div>
@@ -74,7 +82,7 @@
                     <ul class="sidebar-list">
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_home.html"
+                                href="admin_home.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -102,7 +110,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_product.html"
+                                href="admin_product.php"
                                 class="sidebar-link"
                             >
                                 <div class="sidebar-icon">
@@ -130,7 +138,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_clients.html"
+                                href="admin_clients.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -180,7 +188,7 @@
                         </li>
                         <li class="sidebar-list-item">
                             <a
-                                href="/assets/link/admin_stastic.html"
+                                href="admin_stastic.php"
                                 class="sidebar-link"
                                 id="logout-acc"
                             >
@@ -230,7 +238,7 @@
                             </a>
                         </li>
                         <li class="sidebar-list-item user-logout">
-                            <a href="/assets/link/login.html" class="sidebar-link" id="logout-acc">
+                            <a href="login.php" class="sidebar-link" id="logout-acc">
                                 <div class="sidebar-icon">
                                     <i
                                         class="fa-solid fa-arrow-right-from-bracket"
@@ -302,196 +310,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>ORD1245HFTX</td>
-                                <td>Minh Đức</td>
-                                <td>12/01/2024</td>
-                                <td>750,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Đã xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD9823LJRX</td>
-                                <td>Hải Yến</td>
-                                <td>25/02/2024</td>
-                                <td>500,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD4512ZPQB</td>
-                                <td>Anh Khoa</td>
-                                <td>15/03/2024</td>
-                                <td>850,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD7619KSMV</td>
-                                <td>Thùy Trang</td>
-                                <td>10/04/2024</td>
-                                <td>950,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Đã xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD3387WNBY</td>
-                                <td>Hữu Phát</td>
-                                <td>30/05/2024</td>
-                                <td>600,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Đã xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD5290CXLT</td>
-                                <td>Ngọc Mai</td>
-                                <td>20/06/2024</td>
-                                <td>700,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD8491BMNP</td>
-                                <td>Trung Kiên</td>
-                                <td>18/07/2024</td>
-                                <td>400,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD8491BMNP</td>
-                                <td>Bích Ngọc</td>
-                                <td>05/08/2024</td>
-                                <td>550,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD8491BMNP</td>
-                                <td>Quang Huy</td>
-                                <td>22/09/2024</td>
-                                <td>800,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-online"
-                                        >Đã xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>ORD8491BMNP</td>
-                                <td>Lan Anh</td>
-                                <td>12/10/2024</td>
-                                <td>900,000 VNĐ</td>
-                                <td>
-                                    <span class="status status-blocked"
-                                        >Chưa xử lý</span
-                                    >
-                                </td>
-                                <td>
-                                    <label for="view-order" class="view-btn">
-                                        <i class="fa-regular fa-eye"></i>
-                                        <span class="view-action-name"
-                                            >Chi tiết</span
-                                        >
-                                    </label>
-                                </td>
-                            </tr>
+                            <?php include_once "./assets/php_function/display_order.php"; 
+                            displayOrders($conn);
+                            ?>
                         </tbody>
                     </table>
                     <div class="page-nav table-page">

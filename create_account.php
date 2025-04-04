@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Đăng Ký Tài Khoản</title>
-        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -13,20 +13,20 @@
             referrerpolicy="no-referrer"
         />
         <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/assets/favicon/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -44,7 +44,7 @@
                     <div class="header-logo">
                         <a href="/index.html">
                             <img
-                                src="/assets/img/mainlogo.png"
+                                src="./assets/img/mainlogo.png"
                                 alt=""
                                 class="logo"
                             />
@@ -88,11 +88,11 @@
                                 </div>
                                 <div class="search-list">
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-3.jpg"
+                                            src="./assets/img/catfood-3.jpg"
                                             alt="
                                         Thức ăn sấy khô cho mèo thịt thật
                                         CATIDEA Fairy Chef Freeze Dried Raw 6in1
@@ -115,11 +115,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-4.jpg"
+                                            src="./assets/img/dogfood-4.jpg"
                                             alt="
                                         Pate cho chó nước sốt vị thịt bò
                                         PEDIGREE Pouch Beef Thương hiệu PEDIGREE
@@ -140,11 +140,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-6.jpg"
+                                            src="./assets/img/catfood-6.jpg"
                                             alt="
                                         Bánh thưởng cho mèo vị bạc hà MEOW FUN
                                         Peppermint Cod Thương hiệu BUDGE
@@ -165,11 +165,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-1.jpg"
+                                            src="./assets/img/catfood-1.jpg"
                                             alt="
                                         Thức ăn cho mèo Anh lông ngắn CATIDEA
                                         Fairy Chef British Shorthair Thương hiệu
@@ -191,11 +191,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-1.jpg"
+                                            src="./assets/img/dogfood-1.jpg"
                                             alt="
                                         Thức ăn cho chó con PURINA PRO PLAN
                                         Small &amp; Mini Puppy Thương hiệu PURINA
@@ -217,11 +217,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-10.jpg"
+                                            src="./assets/img/dogfood-10.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -238,11 +238,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/detail.html"
+                                        href="./assets/link/detail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-8.jpg"
+                                            src="./assets/img/dogfood-8.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -260,7 +260,7 @@
                                     </a>
                                 </div>
                                 <div class="search-recommend__bottom">
-                                    <a href="/assets/link/pageProduct.html">
+                                    <a href="./assets/link/pageProduct.html">
                                         Xem thêm kết quả có chứa
                                         <strong
                                             style="color: red; margin-left: 3px"
@@ -278,13 +278,13 @@
                             <p class="user-title">Account</p>
                             <div class="account-btn">
                                 <a
-                                    href="/assets/link/login.html"
+                                    href="./assets/link/login.html"
                                     class="signin-btn btn"
                                 >
                                     <span>Đăng nhập</span>
                                 </a>
                                 <a
-                                    href="/assets/link/create_account.html"
+                                    href="./assets/link/create_account.html"
                                     class="create-btn btn"
                                 >
                                     <span>Đăng ký</span>
@@ -314,7 +314,7 @@
                                     </p>
                                     <p class="cart-box__total--price">0đ</p>
                                 </div>
-                                <form action="/assets/link/empty-cart.html">
+                                <form action="./assets/link/empty-cart.html">
                                     <button class="cart-box__btn">
                                         XEM GIỎ HÀNG
                                     </button>
@@ -339,7 +339,7 @@
             <h2 class="form-title">ĐĂNG KÝ TÀI KHOẢN</h2>
             <p class="login-link">
                 Bạn đã có tài khoản?
-                <a href="/assets/link/login.html">Đăng nhập tại đây</a>
+                <a href="./assets/link/login.html">Đăng nhập tại đây</a>
             </p>
             <h3 class="info-title">THÔNG TIN CÁ NHÂN</h3>
             <form action="#" method="post" class="register-form">
@@ -552,7 +552,7 @@
                                 </div>
                                 <img
                                     class="footer-icon__pay"
-                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449/assets/payment.png?1726189697911"
+                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449./assets/payment.png?1726189697911"
                                     alt="Phương thức thanh toán"
                                     width="276"
                                     height="45"

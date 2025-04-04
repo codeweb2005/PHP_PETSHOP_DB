@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Nhà vệ sinh cho mèo PAW Space Helmet Cat Litter Boxes</title>
-        <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="checkOrder.css" />
+        <title>Đã Xem Gần Đây</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/link/viewRecently.css" />
         <!-- Embed Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,73 +25,73 @@
         <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/assets/favicon/apple-icon-57x57.png"
+            href="./assets/favicon/apple-icon-57x57.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="/assets/favicon/apple-icon-60x60.png"
+            href="./assets/favicon/apple-icon-60x60.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="/assets/favicon/apple-icon-72x72.png"
+            href="./assets/favicon/apple-icon-72x72.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/assets/favicon/apple-icon-76x76.png"
+            href="./assets/favicon/apple-icon-76x76.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/assets/favicon/apple-icon-114x114.png"
+            href="./assets/favicon/apple-icon-114x114.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/assets/favicon/apple-icon-120x120.png"
+            href="./assets/favicon/apple-icon-120x120.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/assets/favicon/apple-icon-144x144.png"
+            href="./assets/favicon/apple-icon-144x144.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/assets/favicon/apple-icon-152x152.png"
+            href="./assets/favicon/apple-icon-152x152.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/assets/favicon/apple-icon-180x180.png"
+            href="./assets/favicon/apple-icon-180x180.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="192x192"
-            href="/assets/favicon/android-icon-192x192.png"
+            href="./assets/favicon/android-icon-192x192.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/assets/favicon/favicon-32x32.png"
+            href="./assets/favicon/favicon-32x32.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="/assets/favicon/favicon-96x96.png"
+            href="./assets/favicon/favicon-96x96.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/assets/favicon/favicon-16x16.png"
+            href="./assets/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/assets/favicon/manifest.json" />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta
             name="msapplication-TileImage"
@@ -120,9 +120,9 @@
                 <div class="header__body">
                     <!-- Logo -->
                     <div class="header-logo">
-                        <a href="/assets/link/afterLogin.html">
+                        <a href="./assets/link/afterLogin.html">
                             <img
-                                src="/assets/img/mainlogo.png"
+                                src="./assets/img/mainlogo.png"
                                 alt=""
                                 class="logo"
                             />
@@ -166,11 +166,11 @@
                                 </div>
                                 <div class="search-list">
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-3.jpg"
+                                            src="./assets/img/catfood-3.jpg"
                                             alt="
                                         Thức ăn sấy khô cho mèo thịt thật
                                         CATIDEA Fairy Chef Freeze Dried Raw 6in1
@@ -193,11 +193,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-4.jpg"
+                                            src="./assets/img/dogfood-4.jpg"
                                             alt="
                                         Pate cho chó nước sốt vị thịt bò
                                         PEDIGREE Pouch Beef Thương hiệu PEDIGREE
@@ -218,11 +218,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-6.jpg"
+                                            src="./assets/img/catfood-6.jpg"
                                             alt="
                                         Bánh thưởng cho mèo vị bạc hà MEOW FUN
                                         Peppermint Cod Thương hiệu BUDGE
@@ -243,11 +243,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-1.jpg"
+                                            src="./assets/img/catfood-1.jpg"
                                             alt="
                                         Thức ăn cho mèo Anh lông ngắn CATIDEA
                                         Fairy Chef British Shorthair Thương hiệu
@@ -269,11 +269,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-1.jpg"
+                                            src="./assets/img/dogfood-1.jpg"
                                             alt="
                                         Thức ăn cho chó con PURINA PRO PLAN
                                         Small &amp; Mini Puppy Thương hiệu PURINA
@@ -295,11 +295,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-10.jpg"
+                                            src="./assets/img/dogfood-10.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -316,11 +316,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-8.jpg"
+                                            src="./assets/img/dogfood-8.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -339,7 +339,7 @@
                                 </div>
                                 <div class="search-recommend__bottom">
                                     <a
-                                        href="/assets/link/afterProductPage.html"
+                                        href="./assets/link/afterProductPage.html"
                                     >
                                         Xem thêm kết quả có chứa
                                         <strong
@@ -383,7 +383,7 @@
                                         <ul class="user-box__content">
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/Personal_info.html"
+                                                    href="./assets/link/Personal_info.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -391,7 +391,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/user.svg"
+                                                        src="./assets/img/user.svg"
                                                         alt=""
                                                         class="avatar-icon user-box__icon"
                                                     />
@@ -402,7 +402,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/yourOrder.html"
+                                                    href="./assets/link/yourOrder.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -410,7 +410,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/truck.svg"
+                                                        src="./assets/img/truck.svg"
                                                         alt=""
                                                         class="your-order user-box__icon"
                                                     />
@@ -421,7 +421,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/address.html"
+                                                    href="./assets/link/address.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -429,7 +429,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/yourAddress.svg"
+                                                        src="./assets/img/yourAddress.svg"
                                                         alt=""
                                                         class="your-address user-box__icon"
                                                     />
@@ -440,7 +440,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/checkOrder.html"
+                                                    href="./assets/link/checkOrder.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -448,7 +448,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/infoOrder.svg"
+                                                        src="./assets/img/infoOrder.svg"
                                                         alt=""
                                                         class="info-order user-box__icon"
                                                     />
@@ -467,7 +467,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/logout.svg"
+                                                        src="./assets/img/logout.svg"
                                                         alt=""
                                                         class="logout user-box__icon"
                                                     />
@@ -491,11 +491,11 @@
                                     <div class="cart-box__items">
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-1.webp"
+                                                    src="./assets/img/cart-1.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -552,11 +552,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-2.webp"
+                                                    src="./assets/img/cart-2.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -613,11 +613,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-3.webp"
+                                                    src="./assets/img/cart-3.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -675,11 +675,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/catfood-1.jpg"
+                                                    src="./assets/img/catfood-1.jpg"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -745,7 +745,7 @@
                                         </p>
                                     </div>
                                     <a
-                                        href="/assets/link/gioHang.html"
+                                        href="./assets/link/gioHang.html"
                                         class="cart-box__btn"
                                         style="display: inline-block"
                                     >
@@ -769,7 +769,7 @@
                     <ul class="dog-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -787,7 +787,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -808,7 +808,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -838,21 +838,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -890,7 +890,7 @@
                     <ul class="cat-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -908,7 +908,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -929,7 +929,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -959,21 +959,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1016,7 +1016,7 @@
                     <ul class="service-cata__dropdown">
                         <!-- Services -->
                         <li class="dropdown__item services-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dịch Vụ
                                 <ul class="services-type__list detail-list">
                                     <li class="services-type__item detail-item">
@@ -1031,7 +1031,7 @@
 
                         <!-- Delivery -->
                         <li class="dropdown__item delivery-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Phương Thức Giao Hàng
                                 <ul class="delivery-type__list detail-list">
                                     <li class="delivery-type__item detail-item">
@@ -1056,302 +1056,661 @@
             </ul>
         </div>
 
-        <!-- Tracking Page -->
-        <section class="tracking-page">
+        <!-- Recently You Seen -->
+        <section class="your-orders">
             <div class="container">
-                <h1 class="tracking-page__heading">Kiểm tra đơn hàng</h1>
-                <div class="tracking-content">
-                    <div class="tracking-content-top">
-                        <input
-                            type="search"
-                            id="tracking_orders"
-                            name="orders"
-                            class="form-control"
-                            placeholder="Vui lòng nhập mã đơn hàng"
-                        />
+                <div class="orders-body">
+                    <div class="orders-sidebar">
+                        <div class="orders-sidebar__heading">
+                            <h2 class="acc-sidebar__name">
+                                Xin chào, Đặng Sơn!
+                            </h2>
+                        </div>
+                        <ul class="sidebar__list">
+                            <li class="sidebar__item">
+                                <a
+                                    href="./assets/link/Personal_info.html"
+                                    class="sidebar__link"
+                                >
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M12 15C14.0711 15 15.75 13.3211 15.75 11.25C15.75 9.17893 14.0711 7.5 12 7.5C9.92893 7.5 8.25 9.17893 8.25 11.25C8.25 13.3211 9.92893 15 12 15Z"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M5.98145 18.6913C6.54639 17.5806 7.40768 16.6478 8.46997 15.9963C9.53226 15.3448 10.7541 15 12.0003 15C13.2464 15 14.4683 15.3448 15.5306 15.9963C16.5929 16.6478 17.4542 17.5806 18.0191 18.6913"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                    </svg>
+                                    <span>Thông Tin Cá Nhân</span>
+                                </a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a
+                                    href="./assets/link/yourOrder.html"
+                                    class="sidebar__link"
+                                >
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M22.5 11.25H16.5V7.5H20.4922C20.6421 7.5 20.7886 7.54491 20.9127 7.62895C21.0368 7.71298 21.1329 7.83228 21.1886 7.97146L22.5 11.25Z"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M1.5 13.5H16.5"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M17.625 20.25C18.8676 20.25 19.875 19.2426 19.875 18C19.875 16.7574 18.8676 15.75 17.625 15.75C16.3824 15.75 15.375 16.7574 15.375 18C15.375 19.2426 16.3824 20.25 17.625 20.25Z"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M6.375 20.25C7.61764 20.25 8.625 19.2426 8.625 18C8.625 16.7574 7.61764 15.75 6.375 15.75C5.13236 15.75 4.125 16.7574 4.125 18C4.125 19.2426 5.13236 20.25 6.375 20.25Z"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M15.375 18H8.625"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M4.125 18H2.25C2.05109 18 1.86032 17.921 1.71967 17.7803C1.57902 17.6397 1.5 17.4489 1.5 17.25V6.75C1.5 6.55109 1.57902 6.36032 1.71967 6.21967C1.86032 6.07902 2.05109 6 2.25 6H16.5V16.0514"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                        <path
+                                            d="M16.5 16.0514V11.25H22.5V17.25C22.5 17.4489 22.421 17.6397 22.2803 17.7803C22.1397 17.921 21.9489 18 21.75 18H19.875"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                    </svg>
+                                    <span>Đơn Hàng</span>
+                                </a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a
+                                    href="./assets/link/address.html"
+                                    class="sidebar__link"
+                                >
+                                    <img
+                                        src="./assets/img/yourAddress.svg"
+                                        alt=""
+                                        class="sidebar-item__img"
+                                    />
+                                    <span>Địa Chỉ</span>
+                                </a>
+                            </li>
+                            <li class="sidebar__item sidebar__item--active">
+                                <a
+                                    href="./assets/link/viewRecently.html"
+                                    class="sidebar__link"
+                                >
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M15 6.84375C15 6.84375 16.1419 6.28125 12 6.28125C10.5166 6.28125 9.0666 6.72112 7.83323 7.54523C6.59986 8.36934 5.63856 9.54068 5.07091 10.9111C4.50325 12.2816 4.35472 13.7896 4.64411 15.2444C4.9335 16.6993 5.64781 18.0357 6.6967 19.0846C7.7456 20.1334 9.08197 20.8478 10.5368 21.1371C11.9917 21.4265 13.4997 21.278 14.8701 20.7103C16.2406 20.1427 17.4119 19.1814 18.236 17.948C19.0601 16.7147 19.5 15.2646 19.5 13.7812"
+                                            stroke="#2E2E2E"
+                                            stroke-miterlimit="10"
+                                            stroke-linecap="round"
+                                        ></path>
+                                        <path
+                                            d="M12 2.71875L15.75 6.46875L12 10.2188"
+                                            stroke="#2E2E2E"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        ></path>
+                                    </svg>
+                                    <span>Đã Xem Gần Đây</span>
+                                </a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a
+                                    href="./assets/link/checkOrder.html"
+                                    class="sidebar__link"
+                                >
+                                    <img
+                                        src="./assets/img/infoOrder.svg"
+                                        alt=""
+                                        class="sidebar-item__img"
+                                    />
+                                    <span>Kiểm Tra Đơn Hàng</span>
+                                </a>
+                            </li>
+                            <li class="sidebar__item">
+                                <a href="/index.html" class="sidebar__link">
+                                    <img
+                                        src="./assets/img/logout.svg"
+                                        alt=""
+                                        class="sidebar-item__img"
+                                    />
+                                    <span>Đăng xuất</span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="tracking-content-bottom">
-                        <input
-                            type="search"
-                            id="tracking_email"
-                            name="orders"
-                            class="form-control input-md"
-                            placeholder="Vui lòng nhập email"
-                        />
-                        <span>Hoặc</span>
-                        <input
-                            type="search"
-                            id="tracking_phone"
-                            name="orders"
-                            class="form-control input-md"
-                            placeholder="Vui lòng nhập số điện thoại"
-                        />
-                    </div>
-                    <button class="tracking-page__btn">KIỂM TRA</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Recommend For You -->
-        <section class="recommend-products">
-            <div class="container">
-                <h3
-                    class="recommend-products__tittle"
-                    data-aos="fade-left"
-                    data-aos-duration="1500"
-                >
-                    GỢI Ý RIÊNG BẠN
-                </h3>
-                <div class="recommend-content">
-                    <div class="recommend-list">
-                        <div
-                            class="recommend-item"
-                            data-aos="fade-up"
-                            data-aos-duration="2000"
-                            data-aos-delay="200"
-                        >
-                            <a href="/assets/link/afterDetail.html">
-                                <div class="recommend-item__thumbnail">
-                                    <img
-                                        src="/assets/img/rcm-1.webp"
-                                        alt="Pate Mèo Trưởng Thành Royal Canin Instinctive 85g"
-                                        class="recommend-item__img"
-                                        style="width: 100%; height: 100%"
-                                    />
-                                    <div class="recommend-item__cta">
-                                        <a
-                                            href="#!"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-cart-shopping recommend-item__cart"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Tùy chọn</span
-                                            >
-                                        </a>
-                                        <a
-                                            href="#view-modal"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-eye recommend-item__view"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Xem nhanh</span
-                                            >
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="recommend-item__info">
-                                    <div
-                                        class="line-clamp recommend-item__name"
-                                    >
-                                        Pate Mèo Trưởng Thành Royal Canin
-                                        Instinctive 85g
-                                    </div>
-                                    <span class="recommend-item__price"
-                                        >24.500đ</span
-                                    >
-                                    <button class="recommend-item__btn">
-                                        <img
-                                            src="/assets/img/shopping-bag.png"
-                                            alt="Shopping bag"
-                                            class="recommend-item__bag"
-                                        />
-                                        Thêm vào giỏ
-                                    </button>
-                                </div>
-                            </a>
+                    <div class="orders-content">
+                        <div class="menu-top">
+                            <h1 class="orders-content__tittle" data-aos="fade-left">
+                                Đã xem gần đây
+                            </h1>
                         </div>
-                        <div
-                            class="recommend-item"
-                            data-aos="fade-up"
-                            data-aos-duration="2000"
-                            data-aos-delay="400"
-                        >
-                            <a href="/assets/link/afterDetail.html">
-                                <div class="recommend-item__thumbnail">
-                                    <img
-                                        src="/assets/img/rcm-2.webp"
-                                        alt="Pate Mèo Nutri Plan Cá Ngừ Mix (Lon 160g)"
-                                        class="recommend-item__img"
-                                        style="width: 100%; height: 100%"
-                                    />
-                                    <div class="recommend-item__cta">
-                                        <a
-                                            href="#!"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-cart-shopping recommend-item__cart"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Tùy chọn</span
+                        <section class="cart-product-recommend">
+                            <div class="cart-product__list">
+                                <div class="product-list__item" data-aos="zoom-in" data-aos-delay="0">
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/rmd-1.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
                                             >
-                                        </a>
-                                        <a
-                                            href="#view-modal"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-eye recommend-item__view"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Xem nhanh</span
+                                                Hạt Cho Chó Trưởng Thành
+                                                SmartHeart Power Pack Adult 3kg
+                                            </div>
+                                            <span class="product-item__price"
+                                                >90.000đ</span
                                             >
-                                        </a>
-                                    </div>
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="recommend-item__info">
-                                    <div
-                                        class="line-clamp recommend-item__name"
-                                    >
-                                        Pate Mèo Nutri Plan Cá Ngừ Mix (Lon
-                                        160g)
-                                    </div>
-                                    <span class="recommend-item__price"
-                                        >32.000đ</span
-                                    >
-                                    <button class="recommend-item__btn">
-                                        <img
-                                            src="/assets/img/shopping-bag.png"
-                                            alt="Shopping bag"
-                                            class="recommend-item__bag"
-                                        />
-                                        Thêm vào giỏ
-                                    </button>
-                                </div>
-                            </a>
-                        </div>
-                        <div
-                            class="recommend-item"
-                            data-aos="fade-up"
-                            data-aos-duration="2000"
-                            data-aos-delay="600"
-                        >
-                            <a href="/assets/link/afterDetail.html">
-                                <div class="recommend-item__thumbnail">
-                                    <img
-                                        src="/assets/img/rcm-3.webp"
-                                        alt="Pate Mèo Trưởng Thành Whiskas Tasty Mix 70g"
-                                        class="recommend-item__img"
-                                        style="width: 100%; height: 100%"
-                                    />
-                                    <div class="recommend-item__cta">
-                                        <a
-                                            href="#!"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-cart-shopping recommend-item__cart"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Tùy chọn</span
+                                <div class="product-list__item" data-aos="zoom-in" data-aos-delay="100">
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/seen-3.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
                                             >
-                                        </a>
-                                        <a
-                                            href="#view-modal"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-eye recommend-item__view"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Xem nhanh</span
+                                                Khay Vệ Sinh Cho Mèo Đa Năng
+                                                Pakeway 50x40x20cm
+                                            </div>
+                                            <span class="product-item__price"
+                                                >230.000đ</span
                                             >
-                                        </a>
-                                    </div>
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="recommend-item__info">
-                                    <div
-                                        class="line-clamp recommend-item__name"
-                                    >
-                                        Pate Mèo Trưởng Thành Whiskas Tasty Mix
-                                        70g
-                                    </div>
-                                    <span class="recommend-item__price"
-                                        >17.000đ</span
-                                    >
-                                    <button class="recommend-item__btn">
-                                        <img
-                                            src="/assets/img/shopping-bag.png"
-                                            alt="Shopping bag"
-                                            class="recommend-item__bag"
-                                        />
-                                        Thêm vào giỏ
-                                    </button>
-                                </div>
-                            </a>
-                        </div>
-                        <div
-                            class="recommend-item"
-                            data-aos="fade-up"
-                            data-aos-duration="2000"
-                            data-aos-delay="800"
-                        >
-                            <a href="/assets/link/afterDetail.html">
-                                <div class="recommend-item__thumbnail">
-                                    <img
-                                        src="/assets/img/rcm-4.webp"
-                                        alt="Hạt Cho Chó Trưởng Thành Smartheart Adult Vị Bò Nướng"
-                                        class="recommend-item__img"
-                                        style="width: 100%; height: 100%"
-                                    />
-                                    <div class="recommend-item__cta">
-                                        <a
-                                            href="#!"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-cart-shopping recommend-item__cart"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Tùy chọn</span
+                                <div class="product-list__item" data-aos="zoom-in" data-aos-delay="200">
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/seen-4.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
                                             >
-                                        </a>
-                                        <a
-                                            href="#view-modal"
-                                            class="recommend-item__icon"
-                                        >
-                                            <i
-                                                class="fa-solid fa-eye recommend-item__view"
-                                            ></i>
-                                            <span
-                                                class="recommend-item__action-name"
-                                                >Xem nhanh</span
+                                                Bàn Chải Silicon Có Ô Đựng Sữa
+                                                Tắm
+                                            </div>
+                                            <span class="product-item__price"
+                                                >40.000đ</span
                                             >
-                                        </a>
-                                    </div>
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
-                                <div class="recommend-item__info">
-                                    <div
-                                        class="line-clamp recommend-item__name"
-                                    >
-                                        Hạt Cho Chó Trưởng Thành Smartheart
-                                        Adult Vị Bò Nướng
-                                    </div>
-                                    <span class="recommend-item__price"
-                                        >25.000đ</span
-                                    >
-                                    <button class="recommend-item__btn">
-                                        <img
-                                            src="/assets/img/shopping-bag.png"
-                                            alt="Shopping bag"
-                                            class="recommend-item__bag"
-                                        />
-                                        Thêm vào giỏ
-                                    </button>
+                                <div class="product-list__item" data-aos="zoom-in" data-aos-delay="0">
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/seen-5.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
+                                            >
+                                                Hạt Cho Mèo Trưởng Thành Zoi Cat
+                                                Mix Vị 1Kg
+                                            </div>
+                                            <span class="product-item__price"
+                                                >49.000đ</span
+                                            >
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                        </div>
+                                <div class="product-list__item" data-aos="zoom-in" data-aos-delay="100">
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/seen-6.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
+                                            >
+                                                Khăn Tắm Chó Mèo Siêu Thấm Hút
+                                                Có Hộp Đựng (Lớn 66x43cm)
+                                            </div>
+                                            <span class="product-item__price"
+                                                >60.000đ</span
+                                            >
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="cart-product-recommend">
+                            <hr />
+                            <h3
+                                class="cart-product-recommend__tittle"
+                                data-aos="fade-left"
+                                data-aos-duration="1500"
+                            >
+                                GỢI Ý CHO BẠN
+                            </h3>
+                            <div class="cart-product__list">
+                                <div
+                                    class="product-list__item"
+                                    data-aos="fade-up"
+                                    data-aos-duration="2000"
+                                    data-aos-delay="200"
+                                >
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/rmd-4.jpg"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
+                                            >
+                                                Sữa Tắm Chó Da Nhạy Cảm Forcans
+                                                Shih Tzu 550mlng
+                                            </div>
+                                            <span class="product-item__price"
+                                                >220.000đ</span
+                                            >
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="product-list__item"
+                                    data-aos="fade-up"
+                                    data-aos-duration="2000"
+                                    data-aos-delay="400"
+                                >
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/seen-7.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
+                                            >
+                                                Sữa Tắm Nấm Ngứa & Viêm Da Cho
+                                                Chó Mèo Prunus Micochlodine
+                                                (200ml)
+                                            </div>
+                                            <span class="product-item__price"
+                                                >269.000đ</span
+                                            >
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div
+                                    class="product-list__item"
+                                    data-aos="fade-up"
+                                    data-aos-duration="2000"
+                                    data-aos-delay="600"
+                                >
+                                    <a href="./assets/link/afterDetail.html">
+                                        <div class="product-item__thumbnail">
+                                            <img
+                                                src="./assets/img/rmd-7.webp"
+                                                alt="product-item"
+                                                class="product-item__img"
+                                            />
+                                            <div class="product-item__cta">
+                                                <a
+                                                    href="#!"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-cart-shopping product-item__cart"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Tùy chọn</span
+                                                    >
+                                                </a>
+                                                <a
+                                                    href="#view-modal"
+                                                    class="product-item__icon"
+                                                >
+                                                    <i
+                                                        class="fa-solid fa-eye product-item__view"
+                                                    ></i>
+                                                    <span
+                                                        class="product-item__action-name"
+                                                        >Xem nhanh</span
+                                                    >
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__info">
+                                            <div
+                                                class="product-item__name line-clamp"
+                                            >
+                                                Thức Ăn Cho Chó Trên 6 Tháng ANF
+                                                6Free Hữu Cơ
+                                            </div>
+                                            <span class="product-item__price"
+                                                >43.000đ</span
+                                            >
+                                            <button class="product-item__btn">
+                                                <img
+                                                    src="./assets/img/shopping-bag.png"
+                                                    alt="Shopping bag"
+                                                    class="product-item__bag"
+                                                />
+                                                Thêm vào giỏ
+                                            </button>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -1364,7 +1723,7 @@
                 <a href="#!" class="view-modal__close-btn">&times;</a>
                 <div class="view-modal__image">
                     <img
-                        src="/assets/img/newproduct9.jpg"
+                        src="./assets/img/newproduct9.jpg"
                         alt=""
                         class="view-product__img"
                     />
@@ -1375,21 +1734,21 @@
                         ></i>
 
                         <img
-                            src="/assets/img/newproduct9.jpg"
+                            src="./assets/img/newproduct9.jpg"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
                         />
 
                         <img
-                            src="/assets/img/small-img1.webp"
+                            src="./assets/img/small-img1.webp"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
                         />
 
                         <img
-                            src="/assets/img/small-img4.jpg"
+                            src="./assets/img/small-img4.jpg"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
@@ -1610,7 +1969,7 @@
                                 </div>
                                 <img
                                     class="footer-icon__pay"
-                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449/assets/payment.png?1726189697911"
+                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449./assets/payment.png?1726189697911"
                                     alt="Phương thức thanh toán"
                                     width="276"
                                     height="45"
@@ -1640,6 +1999,7 @@
                 once: "true",
             });
         </script>
+
         <script>
             document
                 .querySelector(".search-form__input")

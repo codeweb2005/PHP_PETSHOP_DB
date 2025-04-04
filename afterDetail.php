@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hạt Cho Mèo Nutrience SubZero Fraser Valley Cat</title>
-        <link rel="stylesheet" href="/assets/css/reset.css" />
-        <link rel="stylesheet" href="detail.css" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/link/detail.css" />
         <!-- Embed Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,73 +25,73 @@
         <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="/assets/favicon/apple-icon-57x57.png"
+            href="./assets/favicon/apple-icon-57x57.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="/assets/favicon/apple-icon-60x60.png"
+            href="./assets/favicon/apple-icon-60x60.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="/assets/favicon/apple-icon-72x72.png"
+            href="./assets/favicon/apple-icon-72x72.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/assets/favicon/apple-icon-76x76.png"
+            href="./assets/favicon/apple-icon-76x76.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="/assets/favicon/apple-icon-114x114.png"
+            href="./assets/favicon/apple-icon-114x114.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="/assets/favicon/apple-icon-120x120.png"
+            href="./assets/favicon/apple-icon-120x120.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="/assets/favicon/apple-icon-144x144.png"
+            href="./assets/favicon/apple-icon-144x144.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="/assets/favicon/apple-icon-152x152.png"
+            href="./assets/favicon/apple-icon-152x152.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/assets/favicon/apple-icon-180x180.png"
+            href="./assets/favicon/apple-icon-180x180.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="192x192"
-            href="/assets/favicon/android-icon-192x192.png"
+            href="./assets/favicon/android-icon-192x192.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/assets/favicon/favicon-32x32.png"
+            href="./assets/favicon/favicon-32x32.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="/assets/favicon/favicon-96x96.png"
+            href="./assets/favicon/favicon-96x96.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/assets/favicon/favicon-16x16.png"
+            href="./assets/favicon/favicon-16x16.png"
         />
-        <link rel="manifest" href="/assets/favicon/manifest.json" />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta
             name="msapplication-TileImage"
@@ -121,9 +121,9 @@
                 <div class="header__body">
                     <!-- Logo -->
                     <div class="header-logo">
-                        <a href="/assets/link/afterLogin.html">
+                        <a href="./assets/link/afterLogin.html">
                             <img
-                                src="/assets/img/mainlogo.png"
+                                src="./assets/img/mainlogo.png"
                                 alt=""
                                 class="logo"
                             />
@@ -167,11 +167,11 @@
                                 </div>
                                 <div class="search-list">
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-3.jpg"
+                                            src="./assets/img/catfood-3.jpg"
                                             alt="
                                         Thức ăn sấy khô cho mèo thịt thật
                                         CATIDEA Fairy Chef Freeze Dried Raw 6in1
@@ -194,11 +194,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-4.jpg"
+                                            src="./assets/img/dogfood-4.jpg"
                                             alt="
                                         Pate cho chó nước sốt vị thịt bò
                                         PEDIGREE Pouch Beef Thương hiệu PEDIGREE
@@ -219,11 +219,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-6.jpg"
+                                            src="./assets/img/catfood-6.jpg"
                                             alt="
                                         Bánh thưởng cho mèo vị bạc hà MEOW FUN
                                         Peppermint Cod Thương hiệu BUDGE
@@ -244,11 +244,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/catfood-1.jpg"
+                                            src="./assets/img/catfood-1.jpg"
                                             alt="
                                         Thức ăn cho mèo Anh lông ngắn CATIDEA
                                         Fairy Chef British Shorthair Thương hiệu
@@ -270,11 +270,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-1.jpg"
+                                            src="./assets/img/dogfood-1.jpg"
                                             alt="
                                         Thức ăn cho chó con PURINA PRO PLAN
                                         Small &amp; Mini Puppy Thương hiệu PURINA
@@ -296,11 +296,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-10.jpg"
+                                            src="./assets/img/dogfood-10.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -317,11 +317,11 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="/assets/link/afterDetail.html"
+                                        href="./assets/link/afterDetail.html"
                                         class="search-item"
                                     >
                                         <img
-                                            src="/assets/img/dogfood-8.jpg"
+                                            src="./assets/img/dogfood-8.jpg"
                                             alt="Thức ăn cho chó MKB Breed & Train Nutrition Mass Gainer"
                                             class="search-item__img"
                                         />
@@ -340,7 +340,7 @@
                                 </div>
                                 <div class="search-recommend__bottom">
                                     <a
-                                        href="/assets/link/afterProductPage.html"
+                                        href="./assets/link/afterProductPage.html"
                                     >
                                         Xem thêm kết quả có chứa
                                         <strong
@@ -384,7 +384,7 @@
                                         <ul class="user-box__content">
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/Personal_info.html"
+                                                    href="./assets/link/Personal_info.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -392,7 +392,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/user.svg"
+                                                        src="./assets/img/user.svg"
                                                         alt=""
                                                         class="avatar-icon user-box__icon"
                                                     />
@@ -403,7 +403,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/yourOrder.html"
+                                                    href="./assets/link/yourOrder.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -411,7 +411,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/truck.svg"
+                                                        src="./assets/img/truck.svg"
                                                         alt=""
                                                         class="your-order user-box__icon"
                                                     />
@@ -422,7 +422,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/address.html"
+                                                    href="./assets/link/address.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -430,7 +430,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/yourAddress.svg"
+                                                        src="./assets/img/yourAddress.svg"
                                                         alt=""
                                                         class="your-address user-box__icon"
                                                     />
@@ -441,7 +441,7 @@
                                             </li>
                                             <li class="user-box__item">
                                                 <a
-                                                    href="/assets/link/checkOrder.html"
+                                                    href="./assets/link/checkOrder.html"
                                                     style="
                                                         display: flex;
                                                         align-items: center;
@@ -449,7 +449,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/infoOrder.svg"
+                                                        src="./assets/img/infoOrder.svg"
                                                         alt=""
                                                         class="info-order user-box__icon"
                                                     />
@@ -468,7 +468,7 @@
                                                     "
                                                 >
                                                     <img
-                                                        src="/assets/img/logout.svg"
+                                                        src="./assets/img/logout.svg"
                                                         alt=""
                                                         class="logout user-box__icon"
                                                     />
@@ -492,11 +492,11 @@
                                     <div class="cart-box__items">
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-1.webp"
+                                                    src="./assets/img/cart-1.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -553,11 +553,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-2.webp"
+                                                    src="./assets/img/cart-2.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -614,11 +614,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/cart-3.webp"
+                                                    src="./assets/img/cart-3.webp"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -676,11 +676,11 @@
                                         </div>
                                         <div class="cart-box__item">
                                             <a
-                                                href="/assets/link/afterDetail.html"
+                                                href="./assets/link/afterDetail.html"
                                                 style="display: flex"
                                             >
                                                 <img
-                                                    src="/assets/img/catfood-1.jpg"
+                                                    src="./assets/img/catfood-1.jpg"
                                                     alt=""
                                                     class="cart-box-item__img"
                                                 />
@@ -746,7 +746,7 @@
                                         </p>
                                     </div>
                                     <a
-                                        href="/assets/link/gioHang.html"
+                                        href="./assets/link/gioHang.html"
                                         class="cart-box__btn"
                                         style="display: inline-block"
                                     >
@@ -770,7 +770,7 @@
                     <ul class="dog-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -788,7 +788,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -809,7 +809,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -839,21 +839,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -891,7 +891,7 @@
                     <ul class="cat-cata__dropdown">
                         <!-- Food -->
                         <li class="dropdown__item food-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Thức ăn hạt
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -909,7 +909,7 @@
 
                         <!-- Pate | Snack | Súp thưởng -->
                         <li class="dropdown__item supplies-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Pate | Snack | Súp thưởng
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -930,7 +930,7 @@
 
                         <!-- Chăm sóc sức khỏe -->
                         <li class="dropdown__item treats-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Chăm sóc sức khỏe
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -960,21 +960,21 @@
 
                         <!-- Sữa tắm | Dầu gội -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Sữa tắm | Dầu gội
                             </a>
                         </li>
 
                         <!-- Dụng cụ ăn uống -->
                         <li class="dropdown__item dog-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dụng cụ ăn uống
                             </a>
                         </li>
 
                         <!-- Vệ sinh -->
                         <li class="dropdown__item health-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Vệ sinh
                                 <i
                                     class="fa-solid fa-chevron-right item-right"
@@ -1017,7 +1017,7 @@
                     <ul class="service-cata__dropdown">
                         <!-- Services -->
                         <li class="dropdown__item services-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Dịch Vụ
                                 <ul class="services-type__list detail-list">
                                     <li class="services-type__item detail-item">
@@ -1032,7 +1032,7 @@
 
                         <!-- Delivery -->
                         <li class="dropdown__item delivery-dropdown__item">
-                            <a href="/assets/link/resultCataAfter.html">
+                            <a href="./assets/link/resultCataAfter.html">
                                 Phương Thức Giao Hàng
                                 <ul class="delivery-type__list detail-list">
                                     <li class="delivery-type__item detail-item">
@@ -1067,22 +1067,22 @@
                             <div class="detail-img-wrap">
                                 <img
                                     class="detail-img--small"
-                                    src="/assets/img/detail-main.webp"
+                                    src="./assets/img/detail-main.webp"
                                     alt=""
                                 />
                                 <img
                                     class="detail-img--small"
-                                    src="/assets/img/detail-2.webp"
+                                    src="./assets/img/detail-2.webp"
                                     alt=""
                                 />
                                 <img
                                     class="detail-img--small"
-                                    src="/assets/img/detail-3.webp"
+                                    src="./assets/img/detail-3.webp"
                                     alt=""
                                 />
                                 <img
                                     class="detail-img--small"
-                                    src="/assets/img/detail-4.webp"
+                                    src="./assets/img/detail-4.webp"
                                     alt=""
                                 />
                             </div>
@@ -1090,7 +1090,7 @@
                         </div>
                         <div class="detail-product__thumbnail">
                             <img
-                                src="/assets/img/detail-main.webp"
+                                src="./assets/img/detail-main.webp"
                                 alt=""
                                 class="detail-main-img"
                             />
@@ -1221,7 +1221,7 @@
                 <a href="#!" class="view-modal__close-btn">&times;</a>
                 <div class="view-modal__image">
                     <img
-                        src="/assets/img/newproduct9.jpg"
+                        src="./assets/img/newproduct9.jpg"
                         alt=""
                         class="view-product__img"
                     />
@@ -1232,21 +1232,21 @@
                         ></i>
 
                         <img
-                            src="/assets/img/newproduct9.jpg"
+                            src="./assets/img/newproduct9.jpg"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
                         />
 
                         <img
-                            src="/assets/img/small-img1.webp"
+                            src="./assets/img/small-img1.webp"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
                         />
 
                         <img
-                            src="/assets/img/small-img4.jpg"
+                            src="./assets/img/small-img4.jpg"
                             alt=""
                             class="view-product__img--small"
                             style="cursor: pointer"
@@ -1461,10 +1461,10 @@
                             data-aos-duration="2000"
                             data-aos-delay="200"
                         >
-                            <a href="/assets/link/detail.html">
+                            <a href="./assets/link/detail.html">
                                 <div class="related-item__thumbnail">
                                     <img
-                                        src="/assets/img/pro-5.png"
+                                        src="./assets/img/pro-5.png"
                                         alt="Thức Ăn Hạt Mềm Cho Chó Già Zenith Senior 1.2KG"
                                         class="related-item__img"
                                     />
@@ -1502,7 +1502,7 @@
                                     >
                                     <button class="related-item__btn">
                                         <img
-                                            src="/assets/img/shopping-bag.png"
+                                            src="./assets/img/shopping-bag.png"
                                             alt="Shopping bag"
                                             class="related-item__bag"
                                             style="scale: 0.8"
@@ -1518,10 +1518,10 @@
                             data-aos-duration="2000"
                             data-aos-delay="400"
                         >
-                            <a href="/assets/link/detail.html">
+                            <a href="./assets/link/detail.html">
                                 <div class="related-item__thumbnail">
                                     <img
-                                        src="/assets/img/pro-9.webp"
+                                        src="./assets/img/pro-9.webp"
                                         alt="Thức Ăn Cho Mèo Con Reflex Plus Kitten (Nhập khẩu Thổ Nhĩ Kỳ)"
                                         class="related-item__img"
                                     />
@@ -1559,7 +1559,7 @@
                                     >
                                     <button class="related-item__btn">
                                         <img
-                                            src="/assets/img/shopping-bag.png"
+                                            src="./assets/img/shopping-bag.png"
                                             alt="Shopping bag"
                                             class="related-item__bag"
                                             style="scale: 0.8"
@@ -1575,10 +1575,10 @@
                             data-aos-duration="2000"
                             data-aos-delay="600"
                         >
-                            <a href="/assets/link/detail.html">
+                            <a href="./assets/link/detail.html">
                                 <div class="related-item__thumbnail">
                                     <img
-                                        src="/assets/img/pro-11.webp"
+                                        src="./assets/img/pro-11.webp"
                                         alt="Thức Ăn Hạt Cho Mèo Mọi Lứa Tuổi Natural Core 95% Hữu Cơ 1kg"
                                         class="related-item__img"
                                     />
@@ -1616,7 +1616,7 @@
                                     >
                                     <button class="related-item__btn">
                                         <img
-                                            src="/assets/img/shopping-bag.png"
+                                            src="./assets/img/shopping-bag.png"
                                             alt="Shopping bag"
                                             class="related-item__bag"
                                             style="scale: 0.8"
@@ -1632,10 +1632,10 @@
                             data-aos-duration="2000"
                             data-aos-delay="800"
                         >
-                            <a href="/assets/link/detail.html">
+                            <a href="./assets/link/detail.html">
                                 <div class="related-item__thumbnail">
                                     <img
-                                        src="/assets/img/pro-14.jpg"
+                                        src="./assets/img/pro-14.jpg"
                                         alt="Thức Ăn Cho Chó Trưởng Thành Taste Of The Wild Adult 12.2kg"
                                         class="related-item__img"
                                     />
@@ -1673,7 +1673,7 @@
                                     >
                                     <button class="related-item__btn">
                                         <img
-                                            src="/assets/img/shopping-bag.png"
+                                            src="./assets/img/shopping-bag.png"
                                             alt="Shopping bag"
                                             class="related-item__bag"
                                             style="scale: 0.8"
@@ -1827,7 +1827,7 @@
                                 </div>
                                 <img
                                     class="footer-icon__pay"
-                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449/assets/payment.png?1726189697911"
+                                    src="//bizweb.dktcdn.net/100/501/740/themes/929449./assets/payment.png?1726189697911"
                                     alt="Phương thức thanh toán"
                                     width="276"
                                     height="45"
